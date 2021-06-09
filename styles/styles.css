@@ -1,9 +1,39 @@
-/* index page - Brian */
+/* Yokoso Anime */
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+
+	1. Fonts
+	2. Elements
+	3. Header
+	4. Home
+	5. Page 2: Accommodations
+	6. Page 3
+	7. Page: Attractions
+	8. Page: Services
+	9. Footer
+    10. Responsive
+
+----------------------------------------------------------------------------- */
 
 
-/* for the title and header sections */
+/* 1. Fonts */
 
-.titleImage {
+
+/* 2. Elements */
+
+th {
+    text-align: left;
+}
+
+dt {
+    background-color: rgba(135, 206, 235, 0.8);
+}
+
+/* 3. Header */
+
+#header {
     position: relative;
     text-align: left;
     display: grid;
@@ -11,6 +41,12 @@
     grid-template-areas: 'header header';
     background-color: rgba(135, 206, 235, 0.7);
     border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#header img {
+    width: 800px;
+    height: 300px;
 }
 
 .titleCenter {
@@ -22,6 +58,26 @@
     top: 20px;
     right: 100px;
 }
+
+.navGrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    background-color: rgba(24, 125, 207, 0.9);
+    padding: 10px;
+}
+
+.navGrid>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 6px;
+    font-family: 'Raleway', sans-serif;
+    font-size: calc(10px + 1.0vw);
+    font-weight: bold;
+}
+
+
+/* 4. Home */
 
 #introductionTitle {
     font-family: "Lucida Handwriting", cursive;
@@ -63,48 +119,12 @@
     border-radius: 5px;
 }
 
-th {
-    text-align: left;
+/* 5. Page 2: Accommodations */
+
+.accommodationImage img {
+    width: 500px;
+    height: 300px;
 }
-
-dt {
-    background-color: rgba(135, 206, 235, 0.8);
-}
-
-
-/* all pages - Brian */
-
-
-/* for the title and header sections */
-
-.navGrid {
-    display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-gap: 10px;
-    background-color: rgba(24, 125, 207, 0.9);
-    padding: 10px;
-}
-
-.navGrid>div {
-    background-color: rgba(255, 255, 255, 0.8);
-    text-align: center;
-    padding: 6px;
-    font-family: 'Raleway', sans-serif;
-    font-size: calc(10px + 1.0vw);
-    font-weight: bold;
-}
-
-
-/* index page - Farooq */
-
-
-/* for rides and shows */
-
-
-/* page 2 - Veronica */
-
-
-/* accommodations page - page 2 */
 
 .grid1-container {
     display: grid;
@@ -136,21 +156,30 @@ dt {
     text-align: center;
 }
 
-
-/* page 3 - Juan */
-
-
-/* plan page, page 3 */
+/* 6. Page 3 */
 
 #services {
     font-size: 20px;
 }
 
+.contacts {
+    display: inline;
+    font-size: 14px;
+    padding: 10px;
+}
 
-/* all pages - Brian */
+/* 7. Page: Attractions */
+
+.attractionsImage {
+    position: relative;
+    text-align: left;
+    opacity: 0.8;
+}
+
+/* 8. Page: Services */
 
 
-/* footer styles */
+/* 9. Footer */
 
 .footerLink {
     display: grid;
@@ -172,34 +201,7 @@ dt {
 }
 
 
-/* extra - Brian */
-
-
-/* attractions page; secondar to main three pages */
-
-.attractionsImage {
-    position: relative;
-    text-align: left;
-    opacity: 0.8;
-}
-
-
-/* extra - Brian */
-
-
-/* services page; secondary to main three pages */
-
-.contacts {
-    display: inline;
-    font-size: 14px;
-    padding: 10px;
-}
-
-
-/* all pages - Brian */
-
-
-/* web accessibility for adjusting viewport */
+/* 10. Responsive */
 
 @media screen and (max-width: 1000px) {
     li>a {

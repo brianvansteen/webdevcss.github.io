@@ -2,26 +2,27 @@
 <html lang="en">
 
 <head>
-    <title>Yōkoso Anime Main</title>
+    <title>Yokoso Anime Main</title>
 
     <meta http-equiv="refresh" content="600">
     <meta charset="utf-8">
-    <meta name="author" content="Yōkoso Anime">
+    <meta name="author" content="Yokoso Anime">
     <meta name="keywords" content="anime, theme park, rides, cuisine">
-    <meta name="description" content="Main landing page for Yōkoso Anime">
+    <meta name="description" content="Main landing page for Yokoso Anime">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="styles/styles.css">
     <script></script>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <!-- <link rel="stylesheet" href="styles/styles.css"> -->
 
 </head>
 
 <body>
 
     <header>
-        <div id="header">
-            <img src="images/background.png" alt="Main page anime splash background">
-            <div class="titleCenter">Yōkoso Anime!</div>
+        <div class="titleImage">
+            <img src="images/background.png" alt="Main page anime splash background" style="width: 800px; height: 300px;">
+            <div class="titleCenter">Yokoso Anime!</div>
         </div>
     </header>
 
@@ -30,13 +31,7 @@
             <a href="index.html">Home</a>
         </div>
         <div>
-            <a href="attractions.html">Shows and Rides</a>
-        </div>
-        <div>
             <a href="2.html">Accommodations</a>
-        </div>
-        <div>
-            <a href="services.html">Services</a>
         </div>
     </div>
 
@@ -44,28 +39,56 @@
 
     <hr>
 
-    <br>
+    <!--............................................................................................................................-->
+    <!-- sections today and contacts modified by Juan J Dominguez, it's possible these will be included in a 4th or 5th page-->
+    <!--............................................................................................................................-->
+    <div class="todayContainer">
+        <div class="todayItem1">
+            <section class="todayItem1">
+                <a id="today">
+                    <h1 class="todayAtYokoso" >Today</h1>
+                    <p class="todayAtYokoso">Today at Yokoso Anime:</p>
+                    <ul class="todayAtYokoso" >
+                        <li>Open:</li>
+                        <li>09h00 - 21h00</li>
+                        <li>Attractions: all open!</li>
+                    </ul>
+                </a>
+                
+            </section>
+        </div>
 
-    <section>
-        <a id="today">
-            <h1 id="services">Today</h1>
-            <p>Today at Yōkoso Anime:</p>
-            <ul id="contacts">
-                <li>Open:</li>
-                <li>09h00 - 21h00</li>
-                <li>Attractions: all open!</li>
-            </ul>
-        </a>
-    </section>
+        <div class="todayItem4">
+                    <img class="todayContacts" src="images/3slayer.png" alt="theme park map" width="250" height="250" usemap="#parkMap">
+        </div>
 
+        <div class="todayItem3">
+            <section>
+                <a >
+                    <h1 class="todayAtYokoso" >Contacts</h1>
+                    <p class="todayAtYokoso">For more information, <br>please contact us at:</p>
+                    <ul class="todayAtYokoso" >
+                        <li>Park Relations</li>
+                        <li>park_relations@yokosoanime.com</li>
+                        <li>+81-8090-280-500</li>
+                    </ul>
+                </a>
+               
+            </section>
+        </div>   
 
-    <br>
+    </div>
 
-    <!-- This section describes the structure for purchasing tickets -->
-
+    <!--............................................................................................................................-->
+    <!-- Developed by Juan J Dominguez from this line down, except the footer-->
+    <!--............................................................................................................................-->
+    <!-- Only public domain images used in this section -->
+    <!--............................................................................................................................-->
+    <!-- The following section describes the structure for purchasing tickets -->
+    <!--............................................................................................................................-->
     <div class="tickets">
         <!--this identifier will bring the user to this section upon  "plan-your-visit" click on the main menu-->
-        <h2>
+        <h2 class="ticketsTitle">
             <a id="tickets"></a>Single tickets, group tickets, passes and memberships</h2>
         <!--this structure provides an aside with instructions for purchasing tickets and make reservations-->
         <aside>
@@ -75,9 +98,9 @@
             <div id="reservationsProtocolList">
                 <!--this structure is an expandable/collapsible set of instructions for the user-->
                 <details>
-                    <summary>View here instructions about how to purchase tickets and make reservations</summary>
+                    <summary class="rsvProtocol">View here instructions about how to purchase tickets and make reservations</summary>
                     <!--tubular structure for content helps the user understand the instructions-->
-                    <table>
+                    <table class="instrTable">
                         <!--emphasis tag has been used here on key words to help guiding the user and the only link invites to the next step-->
                         <tr>
                             <th>1 Online only
@@ -104,332 +127,400 @@
             </div>
         </aside>
 
-
+        <!--............................................................................................................................-->
         <!--the following 4 high level divisions class="tickets"  provide the structure for single, group, passes and membership tickets-->
         <!--each one of the 4 high level divisions contain 4 sub-divisions classe as follows:
 		 ticketsType,
 		 ticketsFeatures,
 		 ticketsPrice 
 		 and  ticketsPurchase-->
+        <!--............................................................................................................................-->
+         <!--This section prvides the structure for the single tickets purchasing-->
+        <!--............................................................................................................................-->
+         <div class="ticketsAll">  
+            <div class="tickets">
+                <div class="ticketsType">
+                    <h2>
+                        <a id="singleTickets"></a>Single tickets</h2>
+                        <img class="tktImg" src="images/3themepark5.png" alt="theme park map" width="200" height="200" usemap="#parkMap">
+                    <!-- <p>Obtain single tickets. </p> -->
+                </div>
 
-        <!--This section prvides the structure for the single tickets purchasing-->
-        <div class="tickets">
-            <div class="ticketsType">
-                <h2>
-                    <a id="singleTickets"></a>Single tickets</h2>
-                <p>Obtain single tickets or one day tickets. </p>
+                <div class="ticketsFeatures">
+                    <ul>
+                        <li>Visit all park attractions</li>
+                        <li>Admission to all shows</li>
+                        <li>Leave and return the same day</li>
+                    </ul>
+                </div>
+                <div class="tktQty">
+                    <div class="tkt">
+                        <p class="asLowAs">As low as $24.99</p>
+                    </div>
+                    <div class="tkt">
+                        <p>Qty </p>
+                    </div>
+                    <div class="tkt">
+                        <select name="qty" id="qty">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                       
+                    </div>
+                    
+                </div>
+                 <button class="buyNow">Buy now</button>
             </div>
 
-            <div class="ticketsFeatures">
-                <ul>
-                    <li>Visit all park attractions</li>
-                    <li>Admission to all shows</li>
-                    <li>Leave and return in the same day</li>
-                </ul>
+
+            <!--............................................................................................................................-->
+            <!--This section prvides the structure for the group tickets purchasing-->
+            <!--............................................................................................................................-->
+            <div class="tickets">
+                <div class="ticketsType">
+                    <h2>
+                        <a id="GroupTickets"></a>Group tickets</h2>
+                        <img class="tktImg" src="images/3themepark4.png" alt="theme park map" width="200" height="200" usemap="#parkMap">
+                </div>
+
+                <div class="ticketsFeatures">
+                    <ul>
+                        <li>Group discounts</li>
+                        <li>Guaranteed all group admission </li>
+                        <li>Leave and return the same day</li>
+                    </ul>
+                </div>
+
+                <div class="tktQty">
+                    <div class="tkt">
+                        <p class="asLowAs">As low as $59.99</p>
+                    </div>
+                    <div class="tkt">
+                        <p>Qty </p>
+                    </div>
+                    <div class="tkt">
+                        <select name="qty" id="qty2">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                       
+                    </div>
+                    
+                </div>
+                 <button class="buyNow2">Buy now</button>
             </div>
 
-            <div class="ticketsPrice">
-                <p>Price $$$</p>
+
+            <!--............................................................................................................................-->
+            <!--This section prvides the structure for the passes purchasing-->
+            <!--............................................................................................................................-->
+
+            <div class="tickets">
+                <div class="ticketsType">
+                    <h2>
+                        <a id="Passes"></a>Passes</h2>
+                        <img class="tktImg" src="images/3themepark3.png" alt="theme park map" width="200" height="200" usemap="#parkMap">
+                </div>
+
+                <div class="ticketsFeatures">
+                    <ul>
+                        <li>Unlimited visits all attractions</li>
+                        <li>Unlimited visits to all shows</li>
+                        <li>Leave and return the same day</li>
+                    </ul>
+                </div>
+
+                <div class="tktQty">
+                    <div class="tkt">
+                        <p class="asLowAs">As low as $39.99</p>
+                    </div>
+                    <div class="tkt">
+                        <p>Qty </p>
+                    </div>
+                    <div class="tkt">
+                        <select name="qty" id="qty3">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                       
+                    </div>
+                    
+                </div>
+                 <button class="buyNow3">Buy now</button>
             </div>
 
-            <div class="ticketsPurchase">
-                <p>Qty 1</p>
-                <button>Increase one</button>
-                <button>Decrease one</button>
-                <button>Buy now</button>
-                <a href="#reservations">Make reservations</a>
+
+            <!--............................................................................................................................-->
+            <!--This section prvides the structure for the memberships purchasing-->
+            <!--............................................................................................................................-->
+            <div class="tickets">
+                <div class="ticketsType">
+                    <h2 class="memberships"><a  id="Memberships"></a>Memberships</h2>
+                        <img class="tktImg" src="images/3themepark2.png" alt="theme park map" width="200" height="200" usemap="#parkMap">
+
+                </div>
+
+                <div class="ticketsFeatures">
+                    <ul>
+                        <li>Enjoy special benefits </li>
+                        <li>VIP guest's parlors</li>
+                        <li>Dining discounts </li>
+                    </ul>
+                </div>
+
+                <div class="tktQty">
+                    <div class="tkt">
+                        <p class="asLowAs">As low as $5.99/mo</p>
+                    </div>
+                    <div class="tkt">
+                        <p>Qty </p>
+                    </div>
+                    <div class="tkt">
+                        <select name="qty" id="qty4">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                       
+                    </div>
+                    
+                </div>
+                 <button class="buyNow4">Buy now</button>
             </div>
-        </div>
-
-
-
-        <!--This section prvides the structure for the group tickets purchasing-->
-        <div class="tickets">
-            <div class="ticketsType">
-                <h2>
-                    <a id="GroupTickets"></a>Group tickets</h2>
-                <p>Obtain Group tickets or one day tickets for groups. </p>
-            </div>
-
-            <div class="ticketsFeatures">
-                <ul>
-                    <li>Group discounts</li>
-                    <li>Visit all park attractions in group</li>
-                    <li>Guaranteed group admission to all shows</li>
-                    <li>Leave and return in the same day</li>
-                </ul>
-            </div>
-
-            <div class="ticketsPrice">
-                <p>Price $$$</p>
-            </div>
-
-            <div class="ticketsPurchase">
-                <p>Qty 1</p>
-                <button>Increase one</button>
-                <button>Decrease one</button>
-                <button>Buy now</button>
-                <a href="#reservations">Make reservations</a>
-            </div>
-        </div>
-
-
-
-        <!--This section prvides the structure for the passes purchasing-->
-
-        <div class="tickets">
-            <div class="ticketsType">
-                <h2>
-                    <a id="Passes"></a>Passes</h2>
-                <p>Obtain passes for the entire season </p>
-            </div>
-
-            <div class="ticketsFeatures">
-                <ul>
-                    <li>Unlimited visits to all park attractions</li>
-                    <li>Unlimited visits to all shows</li>
-                </ul>
-            </div>
-
-            <div class="ticketsPrice">
-                <p>Price $$$</p>
-            </div>
-
-            <div class="ticketsPurchase">
-                <p>Qty 1</p>
-                <button>Increase one</button>
-                <button>Decrease one</button>
-                <button>Buy now</button>
-                <a href="#reservations">Make reservations</a>
-            </div>
-        </div>
-
-
-
-        <!--This section prvides the structure for the memberships purchasing-->
-        <div class="tickets">
-            <div class="ticketsType">
-                <h2>
-                    <a id="Memberships"></a>Memberships</h2>
-                <p>Obtain memberships an exceptional experience </p>
-            </div>
-
-            <div class="ticketsFeatures">
-                <ul>
-                    <li>Enjoy the most refined benefits during your visit</li>
-                    <li>Access to distinguished guest's parlors</li>
-                    <li>Discounts on all restaurants and drink's fountains</li>
-                </ul>
-            </div>
-
-            <div class="ticketsPrice">
-                <p>Price $$$</p>
-            </div>
-
-            <div class="ticketsPurchase">
-                <p>Qty 1</p>
-                <button>Increase one</button>
-                <button>Decrease one</button>
-                <button>Buy now</button>
-                <a href="#reservations">Make reservations</a>
-            </div>
-        </div>
-
+        </div> 
     </div>
-    <hr>
 
+    <!--............................................................................................................................-->
     <!-- This division describes the structure for making reservations -->
+    <!--............................................................................................................................-->
     <div id="reservations" class="reservation">
-        <div class="reservationsTitle">
-            <h2> Reservations</h2>
-        </div>
-        <!--an aside structure to remind the user on the steps for purchasing tickets and making reservations-->
-        <aside>
-            <!--this structure is provided for the expandable/collapsible reminder detail-->
-            <details>
-                <summary>View here important steps for purchasing tickets and making reservations</summary>
-                <div class="reservationsBeforePurchasingTickets">
-                    <h3>Before purchasing tickets</h3>
-                    <p>Any guest entering the park must have both a ticket and a reservation confirmation. Access to the theme park is limited and therefore a reservation is required for all guests visiting the park. View park attractions availability for
-                        the days that you want to visit</p>
-                </div>
-                <div class="reservationsAfterPurchasingTickets">
-                    <h3>After purchasing tickets</h3>
-                    <p><em>Immediately</em> make reservations and <em>obtain confirmation</em> for the days of your visit</p>
-                </div>
-            </details>
-        </aside>
 
+        <div class="rsv">
+            <h4 > Reservations</h4>
+            
+            <p>Any guest entering the park must have both a ticket and a reservation confirmation. Access to the theme park is limited and therefore a reservation is required for all guests visiting the park. View park attractions availability for
+                the days that you want to visit</p>
+        </div>
         <div class="reservationsViewAvailability">
-            <h3>View park and attractions availability for the days of your visit</h3>
-            <button>View park availability</button>
-            <a href="#singleTickets">Purchase tickets</a>
+            <img class="tktImg" src="images/3themepark1.png" alt="theme park map" width="300" height="300" usemap="#parkMap">
+            <h3>View availability for the days of your visit</h3>
+            <button class="ckAvailability">Check availability</button>
+            <p class="getTkts"><a  href="#tickets">Get tickets </a></p>
         </div>
 
         <div class="reservationsMakeReservations">
-            <h3>Make reservations and obtain confirmation for the days of your visit</h3>
-            <button>Make a reservation</button>
+            <img class="tktImg" src="images/3themepark6.png" alt="theme park map" width="300" height="300" usemap="#parkMap">
+            <h3>Make reservations and obtain confirmation </h3>
+            <button class="makeReservation">Make a reservation</button>
         </div>
-
+     
     </div>
-    <hr>
 
+    <!--............................................................................................................................-->
     <!-- This section provides the structure for maps section -->
-    <div id="map">
+    <!--............................................................................................................................-->
+    <div id="map" class="map">
         <div class="mapTitle">
-            <h2> Map of the theme park</h2>
+            <h4>Theme park map </h4>
+            <p>Find your favorite attraction, eats and drinks, or the services you need</p>
         </div>
 
         <!--the accessibility alt attribute is used here-->
         <div class="mapImage">
-            <figure>
-                <img src="images/streetMap.png" alt="theme park map" width="400" height="300" usemap="#parkMap">
-                <figcaption>
-                    <h6>source: public domain image https://i.pinimg.com/originals/8a/94/b2/8a94b20dacebdd4011bd54d03f3ee76d.jpg</h6>
-                </figcaption>
-            </figure>
+                <img src="images/3streetMap.png" alt="theme park map" width="400" height="300" usemap="#parkMap">
+                <!--source: public domain image https://i.pinimg.com/originals/8a/94/b2/8a94b20dacebdd4011bd54d03f3ee76d.jpg-->
         </div>
 
         <!--the map contain clickable areas that take the user to the section of the page in references-->
         <map name="parkMap">
-		<area class="mapThemePark" shape="circle" coords="250,200,20"   alt="feature attraction" href="index.html#featuredAttraction">
-		<area class="mapThemePark" shape="circle" coords="275,80,20"   alt="restaurant" href="2.html#restaurant">
-		<area class="mapThemePark" shape="circle" coords="100,82,20"   alt="shows" href="index.html#Shows">
-		<area class="mapThemePark" shape="circle" coords="90,215,20"   alt="virtual Reality" href="index.html#featuredAttraction">
-	</map>
+            <area class="mapThemePark" shape="circle" coords="250,200,20"   alt="feature attraction" title="IMAX ride" href="index.html#featuredAttraction">
+            <area class="mapThemePark" shape="circle" coords="275,80,20"   alt="restaurant" title="Dine Yokoso Anime" href="2.html#restaurant">
+            <area class="mapThemePark" shape="circle" coords="100,82,20"   alt="shows" title="Yokoso Shows" href="index.html#Shows">
+            <area class="mapThemePark" shape="circle" coords="90,215,20"   alt="virtual Reality" title="Yokoso VR" href="index.html#featuredAttraction">
+	    </map>
     </div>
-    <hr>
 
+    <!--............................................................................................................................-->
     <!-- This section describes the structure for Transportation -->
+    <!--............................................................................................................................-->
     <div class="transportation">
-        <div class="transportationTitle">
+        <!-- <div class="transportationTitle">
             <h2>
-                <a id="Transportation"></a> Transportation</h2>
-        </div>
+                <a id="Transportation"></a> </h2>
+        </div> -->
 
-        <div class="transportationMap">
-            <figure>
-                <img src="images/parkingLot.png" alt="parking lot" width="400">
-                <figcaption>
-                    <h6>source public domain image https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_figure</h6>
-                </figcaption>
-            </figure>
-        </div>
+        <div class="parkingLot">
+            <div class="transportationMap">
+                    <img class="parkingLot" src="images/3parkingLot.png" alt="parking lot" width="400">
+                    <!--source public domain image https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_figure-->
+            </div> 
 
-        <div class="transportationDetail">
-            <h3>Directions to the park</h3>
-            <p> The park is easily accessible through exit 42 Off I-695</p>
-            <address> Location 12552 North Pinacle, Doyle IG 78898-5872 NS</address>
-        </div>
+            <div class="transportationDetail">
+                <h4>Park directions </h4>
+                <p> The park is easily accessible through exit 42 Off I-695</p>
+                <address> Location 12552 North Pinacle, Doyle IG 78898-5872 NS</address>
+            </div>
+            
+        </div> 
     </div>
-    <hr>
 
+    <!--............................................................................................................................-->
     <!-- This division class="services" describes the structure for health, disabilities and other services -->
+    <!--............................................................................................................................-->
     <div class="services">
         <!--this identifier will bring the user to this section upon "park-services" click on the main menu-->
         <div class="servicesTitle">
-            <h2>
-                <a id="healthAccessibilityAndServices"></a> Health, Accesibility &amp;Services </h2>
+            <h3>
+                <a id="healthAccessibilityAndServices"></a> Health, Accesibility &amp; Services </h3>
         </div>
 
-        <div class="servicesHealth">
-            <div class="servicesHealthTitle">
-                <h3>
-                    <a id="Health"></a>Health services</h3>
+
+        <div class="container1">      
+            <div class="item11"> 
+                <div class="servicesHealth">
+                    <div class="servicesHealthTitle">
+                        <h3>
+                            <a id="Health"></a>Health services</h3>
+                    </div>
+        
+                    <div class="servicesHealthProducts">
+                        <p>On site health services open and close in the same park hours</p>
+                        <p>Services available</p>
+                        <ul>
+                            <li>Baby care facilities</li>
+                            <li>Child care facilities</li>
+                            <li>Guests care facilities</li>
+                            <li>AED Automated External Defribillators</li>
+                            <li>Service animals care facilities</li>
+                            <li>First aids</li>
+                            <li>Housekeeping</li>
+                            <li>Stroller rental</li>
+                        </ul>
+                    </div>
+        
+                    <!--emphasis attribute is used here encouraging the user to make direct contact with the office-->
+                    <p><em>For information contact health services at (458)531-8652</em><a href="#map">Find Services Office</a></p>
+    
+                </div>
+            
             </div>
+            <div class="item12"><img src="images/3AED.png" alt="theme park map" width="150" height="150" usemap="#parkMap"></div>
+            <div class="item13"> <img src="images/3babyChanging.png" alt="theme park map" width="150" height="150" usemap="#parkMap"></div>
+            <div class="item14"> <img src="images/3childCare.png" alt="theme park map" width="150" height="150" usemap="#parkMap"></div>
+            <div class="item15"> <img src="images/3firstAid.png" alt="theme park map" width="150" height="150" usemap="#parkMap"></div>
+            <div class="item16"> <img src="images/3guestCare.png" alt="theme park map" width="150" height="150" usemap="#parkMap"></div>
+            <div class="item17"> <img src="images/3serviceAnimals.png" alt="theme park map" width="150" height="150" usemap="#parkMap"></div>
 
-            <div class="servicesHealthProducts">
-                <p>On site health services open and close in the same park hours</p>
-                <p>Services available</p>
-                <ul>
-                    <li>Baby care facilities</li>
-                    <li>Child care facilities</li>
-                    <li>Guests care facilities</li>
-                    <li>AED Automated External Defribillators</li>
-                    <li>Service animals care facilities</li>
-                    <li>First aids</li>
-                    <li>Housekeeping</li>
-                    <li>Stroller rental</li>
-                </ul>
-            </div>
-
-
-            <!--emphasis attribute is used here encouraging the user to make direct contact with the office-->
-            <p><em>For information contact health services at (458)531-8652</em><a href="#map">Find Services Office</a></p>
         </div>
 
-        <div class="servicesDisabilities">
-            <div class="servicesDisabilitiesTitle">
-                <h3>
-                    <a id="disabilities"></a>Accommodations for guests with disabilities</h3>
+        <div class="container2">      
+            <div class="item21"> 
+                <div class="servicesDisabilities">
+                    <div class="servicesDisabilitiesTitle">
+                        <h3>
+                            <a id="disabilities"></a>Accesibility</h3>
+                    </div>
+        
+                    <div class="servicesHealthProducts">
+                        <p>A number of mobility aids are available for rental </p>
+                        <p>Services available</p>
+                        <ul>
+                            <li>Powered and non-powered Wheelchairs</li>
+                            <li>Other power vehicles</li>
+                            <li>Aids for guests with visual, hearing and cognitive disabilities</li>
+                        </ul>
+                    </div>
+        
+                    <!--emphasis attribute is used here encouraging the user to make direct contact with the office-->
+                    <p><em>For information contact health services at (458)531-8652</em><a href="#map">Find Services Office</a></p>
+        
+                </div>
+            
             </div>
+            <div class="item22"><img src="images/3stroller.png" alt="theme park map" width="120" height="120" usemap="#parkMap"></div>
+            <div class="item23"> <img src="images/3scooter.png" alt="theme park map" width="120" height="120" usemap="#parkMap"></div>
+            <div class="item24"> <img src="images/3cabinMobility.png" alt="theme park map" width="120" height="120" usemap="#parkMap"></div>
+             <div class="item25"> <img src="images/3guestCare.png"  alt="theme park map" width="120" height="120" usemap="#parkMap"></div>
 
-            <div class="servicesDisabilitiesProducts">
-                <p>A number of mobility aids are available for rental</p>
-                <p>Services available</p>
-                <ul>
-                    <li>Powered and non-powered Wheelchairs</li>
-                    <li>Other power vehicles</li>
-                    <li>Aids for guests with visual, hearing and cognitive disabilities</li>
-                </ul>
-                <!--emphasis attribute is used here encouraging the user to make direct contact with the office-->
-                <p><em>For information contact disabilities services at (458)682-5027</em><a href="#map">Find Services Office</a></p>
+
+        </div>    
+
+        <div class="container3">      
+            <div class="item31"> 
+                <div class="servicesDisabilities">
+                    <div class="servicesOtherTitle">
+                        <h3>
+                            <a id="OtherServices"></a>Other services</h3>
+                    </div>
+        
+                    <div class="servicesHealthProducts">
+                        <p>The park has banking, security, whether and many other services </p>
+                        <p>Services available</p>
+                        <ul>
+                            <li>ATM locations</li>
+                            <li>Weather protection</li>
+                            <li>Car rental</li>
+                            <li>Front desk services</li>
+                            <li>Lost and found</li>
+                            <li>Park security</li>
+                            <li>Portable devices charging</li>
+                        </ul>
+                    </div>
+        
+                    <!--emphasis attribute is used here encouraging the user to make direct contact with the office-->
+                    <p><em>For information contact services at (458)865-3587</em><a href="#map">Find Services Office</a></p>
+        
+                </div>
+            
             </div>
+            <div class="item32"><img class="item2" src="images/3atm.png" alt="theme park map" width="130" height="130" usemap="#parkMap"></div>
+            <div class="item33"> <img src="images/3carRental.png" alt="theme park map" width="120" height="120" usemap="#parkMap"></div>
+            <div class="item34"> <img src="images/3security.png" alt="theme park map" width="120" height="120" usemap="#parkMap"></div>
+            <div class="item35"> <img src="images/3umbrellas.png" alt="theme park map" width="120" height="120" usemap="#parkMap"></div>
+            <div class="item36"> <img src="images/3charging.png" alt="theme park map" width="120" height="120" usemap="#parkMap"></div>
+            <div class="item37"> <img src="images/3lostFound.png" alt="theme park map" width="120" height="120" usemap="#parkMap"></div>
+
         </div>
 
-        <div class="servicesOther">
-            <div class="servicesOtherTitle">
-                <h3>
-                    <a id="OtherServices"></a>Other services</h3>
-            </div>
-
-            <div class="servicesOtherProducts">
-                <p>The park has banking, security, whether and many other services</p>
-                <p>Services available</p>
-                <ul>
-                    <li>ATM locations</li>
-                    <li>Weather protection</li>
-                    <li>Car rental</li>
-                    <li>Front desk services</li>
-                    <li>Lost and found</li>
-                    <li>Park security</li>
-                    <li>Portable devices charging</li>
-                </ul>
-                <!--emphasis attribute is used here encouraging the user to make direct contact with the office-->
-                <p><em>For information contact services at (458)865-3587</em><a href="#map">Find Services Office</a></p>
-            </div>
 
 
-        </div>
     </div>
 
-
-    <br>
-
-    <footer>
-
+        
         <br>
 
-        <nav class="footerLink">
-            <div class="footerLink">
-                <a class="footerLink" href="index.html">Home</a>
-            </div>
-            <div class="footerLink">
-                <a class="footerLink" href="services.html#contacts">Contacts</a>
-            </div>
-            <div class="footerLink">
-                <a class="footerLink" href="services.html#security">Security & Privacy</a>
-            </div>
-            <div class="footerLink">
-                <a class="footerLink" href="services.html#connected">Stay Connected</a>
-            </div>
-            <div class="footerLink">
-                <a class="footerLink" href="services.html#about">About Us</a>
-            </div>
-        </nav>
-    </footer>
-    <br>
-    <p>Site by the team 90,<em>WD, 2021</em></p>
+        <footer>
+
+            <br>
+
+            <nav class="footer">
+                <ul>
+                    <li class="footerLink">
+                        <a href="index.html">Home</a>
+                    </li>
+                </ul>
+
+                <br>
+
+                <h1>Contacts</h1>
+                <p>For more information, please contact us at:</p>
+                <ul>
+                    <li>Park Relations</li>
+                    <li>park_relations@yokosoanime.com</li>
+                    <li>+81-8090-280-500</li>
+                </ul>
+            </nav>
+
+        </footer>
+        <br>
+        <p>Site by the team 90,<em>WD, 2021</em></p>
 </body>
 
 </html>

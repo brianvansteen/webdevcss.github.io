@@ -1,5 +1,6 @@
 /* Yokoso Anime */
 
+
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -28,8 +29,9 @@ th {
 }
 
 dt {
-    background-color: rgba(135, 206, 235, 0.8);
+    background-color: rgba(97, 173, 152, 0.8);
 }
+
 
 /* 3. Header */
 
@@ -39,7 +41,7 @@ dt {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-areas: 'header header';
-    background-color: rgba(135, 206, 235, 0.7);
+    background-color: rgba(210, 176, 155, 0.7);
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -54,7 +56,7 @@ dt {
     font-family: "Lucida Handwriting", cursive;
     text-align: center;
     font-size: 6vw;
-    color: rgba(145, 7, 7);
+    color: rgba(19, 54, 108);
     top: 20px;
     right: 100px;
 }
@@ -63,7 +65,7 @@ dt {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-gap: 10px;
-    background-color: rgba(24, 125, 207, 0.9);
+    background-color: rgba(97, 173, 152, 0.9);
     padding: 10px;
 }
 
@@ -83,16 +85,16 @@ dt {
     font-family: "Lucida Handwriting", cursive;
     text-align: center;
     font-size: 4vw;
-    color: rgba(145, 7, 7);
-    background-color: rgba(145, 7, 7, 0.3);
+    color: rgba(19, 54, 108);
+    background-color: rgba(210, 176, 155, 0.3);
     border-radius: 10px;
 }
 
 .introductionMain {
     font-family: 'Raleway', sans-serif;
     font-size: 1vw;
-    color: rgba(145, 7, 7);
-    background-color: rgba(145, 7, 7, 0.1);
+    color: rgba(42, 80, 75);
+    background-color: rgba(97, 173, 152, 0.2);
     border-radius: 10px;
     padding: 2px;
     border: 3px solid black;
@@ -103,7 +105,7 @@ dt {
     grid-template-columns: auto auto;
     font-family: 'Raleway', sans-serif;
     font-size: 0.8vw;
-    color: rgb(39, 4, 85);
+    color: rgb(42, 80, 75);
     padding: 5px;
     border-radius: 5px;
 }
@@ -113,11 +115,12 @@ dt {
     grid-template-columns: auto auto;
     font-family: 'Raleway', sans-serif;
     font-size: 0.8vw;
-    color: rgb(39, 4, 85);
-    background-color: rgba(135, 206, 235, 0.4);
+    color: rgb(42, 80, 75);
+    background-color: rgba(97, 173, 152, 0.4);
     padding: 5px;
     border-radius: 5px;
 }
+
 
 /* 5. Page 2: Accommodations */
 
@@ -156,6 +159,7 @@ dt {
     text-align: center;
 }
 
+
 /* 6. Page 3 */
 
 #services {
@@ -166,16 +170,31 @@ dt {
     display: inline;
     font-size: 14px;
     padding: 10px;
-	
 }
 
+
 /*-------------------------------------------------------------------------------------*/
+
+
 /* Begining of style for page 3.html*/
+
+
 /*-------------------------------------------------------------------------------------*/
+
+
 /* background color for all sections*/
-/*-------------------------------------------------------------------------------------*/ 
-.tickets, .reservation, .map, .transportation, .services, .todayContainer, .todayContainer{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+
+/*-------------------------------------------------------------------------------------*/
+
+.tickets,
+.reservation,
+.map,
+.transportation,
+.services,
+.todayContainer,
+.todayContainer {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2196F322;
     padding: 0%;
     border-left: 19px solid #2196F3;
@@ -183,11 +202,17 @@ dt {
     border-top: 19px solid #2196F3;
     margin: 0px;
     box-sizing: border-box;
-
 }
+
+
 /*-------------------------------------------------------------------------------------*/
+
+
 /* top sections today and contacts*/
-/*-------------------------------------------------------------------------------------*/ 
+
+
+/*-------------------------------------------------------------------------------------*/
+
 .todayContainer {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -196,7 +221,6 @@ dt {
     border-top: 19px solid #2196F3;
     padding-top: 35px;
     padding-bottom: 10px;
-    
 }
 
 img.todayContacts {
@@ -207,61 +231,86 @@ img.todayContacts {
     margin-left: 10%;
     border-radius: 50px;
 }
-p.todayAtYokoso, ul.todayAtYokoso {
+
+p.todayAtYokoso,
+ul.todayAtYokoso {
     font-size: 1.6em;
     list-style-type: none;
 }
+
 h1.todayAtYokoso {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: 3em;
     color: blue;
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 5px;
-} 
+}
+
+
 /*-------------------------------------------------------------------------------------*/
+
+
 /* font for main section and subsection headings*/
+
+
 /*-------------------------------------------------------------------------------------*/
-.ticketsTitle,.transportation h2, .mapTitle h4, .reservationsTitle, .servicesTitle {
+
+.ticketsTitle,
+.transportation h2,
+.mapTitle h4,
+.reservationsTitle,
+.servicesTitle {
     clear: both;
     font-size: 3em;
     font-weight: bold;
     color: blue;
     text-align: center;
-
 }
-.ticketsType h2, div.rsv h4 {
+
+.ticketsType h2,
+div.rsv h4 {
     font-size: 2em;
     font-weight: bold;
     color: blue;
-    text-align: center; 
+    text-align: center;
 }
+
 div.rsv p {
     font-size: 14px;
-    font-weight:normal;
+    font-weight: normal;
     color: black;
     text-align: center;
     line-height: 2;
     display: inline-block;
-    vertical-align:middle ;
- }
-.transportationDetail h4{
+    vertical-align: middle;
+}
+
+.transportationDetail h4 {
     font-size: 3em;
     font-weight: bold;
     color: blue;
     text-align: Left;
 }
+
+
 /*-------------------------------------------------------------------------------------*/
+
+
 /* first aside for reservations <detail>*/
+
+
 /*-------------------------------------------------------------------------------------*/
-aside #reservationsProtocol,summary.rsvProtocol{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+
+aside #reservationsProtocol,
+summary.rsvProtocol {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     font-size: 2em;
 }
 
- summary.rsvProtocol{
+summary.rsvProtocol {
     text-align: center;
     font-size: 20px;
     font-style: italic;
@@ -273,9 +322,10 @@ aside #reservationsProtocol,summary.rsvProtocol{
     cursor: pointer;
     display: block;
     margin: auto;
-    cursor:pointer; 
-} 
-table.instrTable{
+    cursor: pointer;
+}
+
+table.instrTable {
     border: none;
     margin-left: auto;
     margin-right: auto;
@@ -286,41 +336,61 @@ table.instrTable{
 summary.rsvProtocol:hover {
     background-color: #ccc;
 }
+
+
 /*-------------------------------------------------------------------------------------*/
+
+
 /*transportation section*/
+
+
 /*-------------------------------------------------------------------------------------*/
+
 .transportationMap h6 {
     text-align: right;
 }
 
-.map{
+.map {
     display: grid;
     grid-template-columns: auto auto;
     padding: 100px;
     text-align: center;
 }
-.mapTitle h4, .transportationDetail h4, .servicesHealthTitle h3, .servicesDisabilitiesTitle h3, .servicesOtherTitle h3 {
+
+.mapTitle h4,
+.transportationDetail h4,
+.servicesHealthTitle h3,
+.servicesDisabilitiesTitle h3,
+.servicesOtherTitle h3 {
     background-color: rgba(255, 140, 90, 0.8);
     border-radius: 5px;
     padding: 25px;
 }
-.parkingLot{
+
+.parkingLot {
     display: grid;
     grid-template-columns: auto auto;
     padding: 60px;
     text-align: left;
 }
 
+
 /*-------------------------------------------------------------------------------------*/
+
+
 /* Reservations purchase tickets*/
+
+
 /*-------------------------------------------------------------------------------------*/
+
 .reservation {
     display: grid;
     grid-template-columns: 30% auto auto;
     margin: 0px;
-    padding:  100px;
+    padding: 100px;
     border-top: 19px solid #2196F3;
 }
+
 .ckAvailability {
     display: inline-block;
     width: 180px;
@@ -335,6 +405,7 @@ summary.rsvProtocol:hover {
     line-height: 25px;
     cursor: pointer;
 }
+
 .makeReservation {
     display: inline-block;
     width: 180px;
@@ -351,7 +422,9 @@ summary.rsvProtocol:hover {
     margin-left: 80px;
     margin-top: 12px;
 }
-p.getTkts, p.getTkts a{
+
+p.getTkts,
+p.getTkts a {
     display: inline-block;
     background-color: rgb(226, 43, 202);
     color: rgb(255, 238, 10);
@@ -374,9 +447,16 @@ div.rsv h4 {
     padding: 20px;
     font-size: 36px;
 }
+
+
 /*-------------------------------------------------------------------------------------*/
+
+
 /* buy now buttons*/
+
+
 /*-------------------------------------------------------------------------------------*/
+
 .buyNow {
     display: block;
     width: 180px;
@@ -392,6 +472,7 @@ div.rsv h4 {
     cursor: pointer;
     margin-left: 40px;
 }
+
 .buyNow2 {
     display: block;
     width: 180px;
@@ -407,6 +488,7 @@ div.rsv h4 {
     cursor: pointer;
     margin-left: 40px;
 }
+
 .buyNow3 {
     display: block;
     width: 180px;
@@ -422,6 +504,7 @@ div.rsv h4 {
     cursor: pointer;
     margin-left: 40px;
 }
+
 .buyNow4 {
     display: block;
     width: 180px;
@@ -437,191 +520,261 @@ div.rsv h4 {
     cursor: pointer;
     margin-left: 40px;
 }
+
 .ticketsType h2 {
     background-color: rgba(255, 140, 90, 0.8);
     padding: 20px;
 }
+
 p.asLowAs {
     font-size: 1.1em;
     color: rgb(7, 119, 22);
     font-weight: bold;
 }
+
+
 /*-------------------------------------------------------------------------------------*/
+
+
 /*price value and qty in line, next two styles*/
+
+
 /*-------------------------------------------------------------------------------------*/
-.tktQty {                           /*container div, cell div follows*/
+
+.tktQty {
+    /*container div, cell div follows*/
     display: table;
-    width:fit-content ;
-    table-layout: fixed; 
+    width: fit-content;
+    table-layout: fixed;
     border-spacing: 10px;
     margin-left: 30px;
 }
-.tkt {                              /*cell  div*/
+
+.tkt {
+    /*cell  div*/
     display: table-cell;
 }
+
+
 /*-------------------------------------------------------------------------------------*/
+
+
 /*tickets section*/
+
+
 /*-------------------------------------------------------------------------------------*/
+
 .ticketsAll {
     display: grid;
     grid-template-columns: auto auto auto auto;
     background-color: #eaf1f8;
     text-align: left;
 }
+
 .tktImg {
     margin-left: 35px;
 }
+
 .ticketsFeatures {
     margin-left: 10px;
     text-align: left;
 }
+
+
 /*-------------------------------------------------------------------------------------*/
+
+
 /*health services*/
+
+
 /*-------------------------------------------------------------------------------------*/
+
 .container1 {
-display: grid;
-grid-gap: 0px;
-grid-template-columns:  auto;
-grid-template-rows: auto auto ; 
-padding: 100px;
-border-top: 19px solid #2196F3;
-margin: -10px;
-align-items: normal;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    padding: 100px;
+    border-top: 19px solid #2196F3;
+    margin: -10px;
+    align-items: normal;
 }
+
 .item11 {
     grid-row: 1 /3;
-    grid-column: 1 / 1; 
+    grid-column: 1 / 1;
     text-align: center;
     margin-bottom: 0%;
     margin-top: 0;
     margin-right: 20px;
 }
+
 .item12 {
     grid-row: 1 / 1;
-    grid-column: 2 /2; 
+    grid-column: 2 /2;
 }
+
 .item13 {
     grid-row: 1 / 1;
-    grid-column: 3 / 3; 
+    grid-column: 3 / 3;
 }
+
 .item14 {
     grid-row: 1 / 1;
-    grid-column: 4 / 4; 
+    grid-column: 4 / 4;
 }
+
 .item15 {
     grid-row: 2/ 2;
-    grid-column: 2 / 2; 
+    grid-column: 2 / 2;
 }
+
 .item16 {
     grid-row: 2 / 2;
-    grid-column: 3/ 3; 
+    grid-column: 3/ 3;
 }
+
 .item17 {
     grid-row: 2 / 2;
-    grid-column: 4 / 4; 
+    grid-column: 4 / 4;
 }
-.servicesHealthTitle h3, .servicesDisabilitiesTitle h3, .servicesOtherTitle h3 {
-color: blue;
-width: 90%;
-text-align: center;
+
+.servicesHealthTitle h3,
+.servicesDisabilitiesTitle h3,
+.servicesOtherTitle h3 {
+    color: blue;
+    width: 90%;
+    text-align: center;
 }
+
+
 /*-------------------------------------------------------------------------------------*/
+
+
 /*accesibility  services*/
+
+
 /*-------------------------------------------------------------------------------------*/
+
 .container2 {
-display: grid;
-grid-gap: 10px;
-grid-template-columns:  auto;
-grid-template-rows: auto auto ; 
-padding: 80px;
-border-top: 19px solid #2196F3;
-margin: 0px;
-align-items: normal;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    padding: 80px;
+    border-top: 19px solid #2196F3;
+    margin: 0px;
+    align-items: normal;
 }
+
 .item21 {
     grid-row: 1 /3;
-    grid-column: 4 / 4; 
+    grid-column: 4 / 4;
     text-align: center;
     margin-bottom: 0%;
     margin-top: 0;
 }
+
 .item22 {
     grid-row: 1 / 1;
-    grid-column: 1 /1; 
+    grid-column: 1 /1;
 }
+
 .item23 {
     grid-row: 1 / 1;
-    grid-column: 3 / 3; 
+    grid-column: 3 / 3;
     padding-left: 0px;
 }
+
 .item24 {
     grid-row: 1 / 1;
-    grid-column: 2 / 2; 
+    grid-column: 2 / 2;
     padding-left: 42px;
 }
+
 .item25 {
     grid-row: 2/ 2;
-    grid-column: 1 / 1; 
+    grid-column: 1 / 1;
 }
+
 .item26 {
     grid-row: 2 / 2;
-    grid-column: 3/ 3; 
+    grid-column: 3/ 3;
 }
+
 .item27 {
     grid-row: 2 / 2;
-    grid-column: 2 / 2; 
+    grid-column: 2 / 2;
     padding-left: 42px;
 }
+
+
 /*-------------------------------------------------------------------------------------*/
+
+
 /*other  services*/
+
+
 /*-------------------------------------------------------------------------------------*/
+
 .container3 {
-display: grid;
-grid-gap: 0px;
-grid-template-columns: auto;
-grid-template-rows: auto auto ; 
-padding: 80px;
-border-top: 19px solid #2196F3;
-border-bottom: 19px solid #2196F3;
-margin: -10px;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    padding: 80px;
+    border-top: 19px solid #2196F3;
+    border-bottom: 19px solid #2196F3;
+    margin: -10px;
 }
+
 .item31 {
     grid-row: 1 /3;
-    grid-column: 1 / 1; 
+    grid-column: 1 / 1;
     text-align: center;
     margin-bottom: 0%;
     margin-top: 0;
     margin-right: 20px;
 }
+
 .item32 {
     grid-row: 1 / 1;
-    grid-column: 2 /2; 
+    grid-column: 2 /2;
 }
+
 .item33 {
     grid-row: 1 / 1;
-    grid-column: 3 / 3; 
-
+    grid-column: 3 / 3;
 }
+
 .item34 {
     grid-row: 1 / 1;
-    grid-column: 4 / 4; 
+    grid-column: 4 / 4;
 }
+
 .item35 {
     grid-row: 2/ 2;
-    grid-column: 2 / 2; 
+    grid-column: 2 / 2;
 }
+
 .item36 {
     grid-row: 2 / 2;
-    grid-column: 3/ 3; 
+    grid-column: 3/ 3;
 }
+
 .item37 {
     grid-row: 2 / 2;
-    grid-column: 4 / 4; 
+    grid-column: 4 / 4;
 }
-/*-------------------------------------------------------------------------------------*/
-/*end of style for page 3.html*/
+
+
 /*-------------------------------------------------------------------------------------*/
 
+
+/*end of style for page 3.html*/
+
+
+/*-------------------------------------------------------------------------------------*/
 
 
 /* 7. Page: Attractions */
@@ -631,6 +784,7 @@ margin: -10px;
     text-align: left;
     opacity: 0.8;
 }
+
 
 /* 8. Page: Services */
 
@@ -642,7 +796,7 @@ margin: -10px;
     grid-template-columns: auto auto auto auto auto;
     grid-gap: 4px;
     border-width: 0px;
-    background-color: rgba(24, 125, 207, 0.9);
+    background-color: rgba(97, 173, 152, 0.6);
     color: black;
     font-family: 'Raleway', sans-serif;
     font-size: calc(8px + 0.4vw);
@@ -653,7 +807,7 @@ margin: -10px;
 }
 
 .footerLink>a:hover {
-    background-color: rgba(145, 7, 7);
+    background-color: rgba(42, 80, 75);
 }
 
 

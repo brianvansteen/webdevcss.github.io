@@ -1,6 +1,5 @@
 /* Yokoso Anime */
 
-
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -21,6 +20,7 @@
 
 /* 1. Fonts */
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Chewy&display=swap');
 
 /* 2. Elements */
 
@@ -29,9 +29,8 @@ th {
 }
 
 dt {
-    background-color: rgba(97, 173, 152, 0.8);
+    background-color: rgba(135, 206, 235, 0.8);
 }
-
 
 /* 3. Header */
 
@@ -41,7 +40,7 @@ dt {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-areas: 'header header';
-    background-color: rgba(210, 176, 155, 0.7);
+    background-color: rgba(135, 206, 235, 0.7);
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -53,10 +52,10 @@ dt {
 
 .titleCenter {
     position: absolute;
-    font-family: "Lucida Handwriting", cursive;
+    font-family: "Chewy", cursive;
     text-align: center;
-    font-size: 6vw;
-    color: rgba(19, 54, 108);
+    font-size: 8vw;
+    color: rgba(145, 7, 7);
     top: 20px;
     right: 100px;
 }
@@ -65,7 +64,7 @@ dt {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     grid-gap: 10px;
-    background-color: rgba(97, 173, 152, 0.9);
+    background-color: rgba(24, 125, 207, 0.9);
     padding: 10px;
 }
 
@@ -85,16 +84,16 @@ dt {
     font-family: "Lucida Handwriting", cursive;
     text-align: center;
     font-size: 4vw;
-    color: rgba(19, 54, 108);
-    background-color: rgba(210, 176, 155, 0.3);
+    color: rgba(145, 7, 7);
+    background-color: rgba(145, 7, 7, 0.3);
     border-radius: 10px;
 }
 
 .introductionMain {
     font-family: 'Raleway', sans-serif;
     font-size: 1vw;
-    color: rgba(42, 80, 75);
-    background-color: rgba(97, 173, 152, 0.2);
+    color: rgba(145, 7, 7);
+    background-color: rgba(145, 7, 7, 0.1);
     border-radius: 10px;
     padding: 2px;
     border: 3px solid black;
@@ -105,7 +104,7 @@ dt {
     grid-template-columns: auto auto;
     font-family: 'Raleway', sans-serif;
     font-size: 0.8vw;
-    color: rgb(42, 80, 75);
+    color: rgb(39, 4, 85);
     padding: 5px;
     border-radius: 5px;
 }
@@ -115,33 +114,61 @@ dt {
     grid-template-columns: auto auto;
     font-family: 'Raleway', sans-serif;
     font-size: 0.8vw;
-    color: rgb(42, 80, 75);
-    background-color: rgba(97, 173, 152, 0.4);
+    color: rgb(39, 4, 85);
+    background-color: rgba(135, 206, 235, 0.4);
     padding: 5px;
     border-radius: 5px;
 }
 
-
-/* 5. Page 2: Accommodations */
+/* 5. Page 2: Accommodations Veronica Torrens */
 
 .accommodationImage img {
-    width: 500px;
-    height: 300px;
+    width: 640px;
+    height: 400px;
 }
 
+/* Main page title with external font*/
+
+#title{
+    text-align: center;
+    font-family:"Chewy", cursive;
+    font-size: 4vw;
+    color: rgba(19, 54, 108);
+}
+
+/* Accomodation Grids Titles-Subtitles  Font and Color-uses external font*/
+.grid1-item h2{
+    text-align: left;
+    font-family:"Chewy", cursive;
+    font-size: 4vw;
+    color: rgba(19, 54, 108);
+}
+
+
+.grid-item label{
+    text-align: left;
+    font-family:"Chewy", cursive;
+    font-size: 2vw;
+    color: rgba(42, 80, 75);
+}
+
+/*Accomodations Grids formatting*/
 .grid1-container {
+    text-align: left;
     display: grid;
     grid-template-columns: auto auto auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     background-color: rgba(24, 125, 207, 0.9);
     padding: 10px;
 }
 
 .grid1-item {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255,255,255);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
-    font-size: 30px;
-    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 50px;
+    text-align: left;
 }
 
 .grid-container {
@@ -152,13 +179,12 @@ dt {
 }
 
 .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(210, 176, 155, 0.8);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-size: 30px;
     text-align: center;
 }
-
 
 /* 6. Page 3 */
 
@@ -170,31 +196,15 @@ dt {
     display: inline;
     font-size: 14px;
     padding: 10px;
+	
 }
 
-
-/*-------------------------------------------------------------------------------------*/
-
-
-/* Begining of style for page 3.html*/
-
-
-/*-------------------------------------------------------------------------------------*/
-
-
-/* background color for all sections*/
-
-
-/*-------------------------------------------------------------------------------------*/
-
-.tickets,
-.reservation,
-.map,
-.transportation,
-.services,
-.todayContainer,
-.todayContainer {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* ------------------------------------------------------------------------------------- */
+/* Begining of style for page 3.html */
+/* ------------------------------------------------------------------------------------- */
+/* background style for all sections */
+/* ------------------------------------------------------------------------------------- */ 
+.tickets, .reservation, .map, .transportation, .services, .todayContainer, .todayContainer{
     background-color: #2196F322;
     padding: 0%;
     border-left: 19px solid #2196F3;
@@ -203,16 +213,97 @@ dt {
     margin: 0px;
     box-sizing: border-box;
 }
-
-
-/*-------------------------------------------------------------------------------------*/
-
-
-/* top sections today and contacts*/
-
-
-/*-------------------------------------------------------------------------------------*/
-
+.ticketsType{
+    background-color: #2196F322;
+    padding-bottom: 4%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-top: 19px solid #2196F3;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* ------------------------------------------------------------------------------------- */
+/* font style for all sections */
+/* ------------------------------------------------------------------------------------- */ 
+.tickets, .reservation, .map, .transportation, .services, .todayContainer, .todayContainer, 
+h1.todayAtYokoso, aside #reservationsProtocol,summary.rsvProtocol {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+/* ------------------------------------------------------------------------------------- */
+/* font size all title  */
+/* ------------------------------------------------------------------------------------- */ 
+h1.ticketsTitle, h1.servicesTitle{
+    font-size: 3em;
+    clear: both;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
+div.rsv h4 {
+    font-size: 2em;
+}
+/*------------------------------------------------------------------------------------- */
+/* font size all sub-title */
+/*------------------------------------------------------------------------------------- */ 
+h3.servicesHealthTitle, h3.servicesDisabilitiesTitle, h3.servicesOtherTitle {
+    font-size: 3em;
+    background-color: rgba(255, 140, 90, 0.8);
+    border-radius: 5px;
+    padding: 25px;
+    color: blue;
+    text-align: center;
+}
+h2.todayAtYokoso {
+    font-size: 3em;
+    clear: both;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
+h2.rsv, h2.transportationDetail, h2.mapTitle  {
+    font-size: 3em;
+    clear: both;
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    background-color: rgba(255, 140, 90, 0.8);
+    border-radius: 5px;
+    padding: 25px;
+}
+.ticketsType h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: blue;
+    text-align: center; 
+    background-color: rgba(255, 140, 90, 0.8);
+    padding: 20px;
+}
+/* ------------------------------------------------------------------------------------- */
+/* font size all content */
+/* ------------------------------------------------------------------------------------- */ 
+ul.todayAtYokoso, p.todayAtYokoso {
+    font-size: 1.4em;
+}
+p.asLowAs {
+    font-size: 1.1em;
+    color: rgb(7, 119, 22);
+    font-weight: bold;
+}
+/* ------------------------------------------------------------------------------------- */
+/* font for main section and subsection headings  */
+/* ------------------------------------------------------------------------------------- */
+div.rsv p {
+    font-size: 1.2em;
+    font-weight:normal;
+    color: black;
+    text-align: center;
+    line-height: 2;
+    display: inline-block;
+    vertical-align:middle ;
+ }
+/* ------------------------------------------------------------------------------------- */
+/* top sections today and contacts */
+/* ------------------------------------------------------------------------------------- */ 
 .todayContainer {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -222,7 +313,6 @@ dt {
     padding-top: 35px;
     padding-bottom: 10px;
 }
-
 img.todayContacts {
     margin-left: auto;
     margin-right: auto;
@@ -231,88 +321,28 @@ img.todayContacts {
     margin-left: 10%;
     border-radius: 50px;
 }
-
-p.todayAtYokoso,
-ul.todayAtYokoso {
-    font-size: 1.6em;
+p.todayAtYokoso, ul.todayAtYokoso {
     list-style-type: none;
 }
-
 h1.todayAtYokoso {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    font-size: 3em;
     color: blue;
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 5px;
-}
+} 
 
-
-/*-------------------------------------------------------------------------------------*/
-
-
-/* font for main section and subsection headings*/
-
-
-/*-------------------------------------------------------------------------------------*/
-
-.ticketsTitle,
-.transportation h2,
-.mapTitle h4,
-.reservationsTitle,
-.servicesTitle {
-    clear: both;
-    font-size: 3em;
-    font-weight: bold;
-    color: blue;
-    text-align: center;
-}
-
-.ticketsType h2,
-div.rsv h4 {
-    font-size: 2em;
-    font-weight: bold;
-    color: blue;
-    text-align: center;
-}
-
-div.rsv p {
-    font-size: 14px;
-    font-weight: normal;
-    color: black;
-    text-align: center;
-    line-height: 2;
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.transportationDetail h4 {
-    font-size: 3em;
-    font-weight: bold;
-    color: blue;
-    text-align: Left;
-}
-
-
-/*-------------------------------------------------------------------------------------*/
-
-
-/* first aside for reservations <detail>*/
-
-
-/*-------------------------------------------------------------------------------------*/
-
-aside #reservationsProtocol,
-summary.rsvProtocol {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+/* ------------------------------------------------------------------------------------- */
+/* first aside for reservations <detail> */
+/* ------------------------------------------------------------------------------------- */
+aside #reservationsProtocol,summary.rsvProtocol{
     text-align: center;
     font-size: 2em;
 }
 
-summary.rsvProtocol {
+ summary.rsvProtocol{
     text-align: center;
-    font-size: 20px;
+    font-size: 1.3em;
     font-style: italic;
     padding: 4px;
     width: max-content;
@@ -322,141 +352,38 @@ summary.rsvProtocol {
     cursor: pointer;
     display: block;
     margin: auto;
-    cursor: pointer;
-}
-
-table.instrTable {
+    cursor:pointer; 
+} 
+table.instrTable{
     border: none;
     margin-left: auto;
     margin-right: auto;
     background-color: #eaf1f8;
     margin-left: 270px;
 }
-
 summary.rsvProtocol:hover {
     background-color: #ccc;
 }
-
-
-/*-------------------------------------------------------------------------------------*/
-
-
-/*transportation section*/
-
-
-/*-------------------------------------------------------------------------------------*/
-
-.transportationMap h6 {
-    text-align: right;
-}
-
-.map {
+/* ------------------------------------------------------------------------------------- */
+/* tickets section layout */
+/*------------------------------------------------------------------------------------- */
+.ticketsAll {
     display: grid;
-    grid-template-columns: auto auto;
-    padding: 100px;
-    text-align: center;
-}
+    grid-template-columns: auto auto auto auto;
+    background-color: #eaf1f8;
+    text-align: left;
 
-.mapTitle h4,
-.transportationDetail h4,
-.servicesHealthTitle h3,
-.servicesDisabilitiesTitle h3,
-.servicesOtherTitle h3 {
-    background-color: rgba(255, 140, 90, 0.8);
-    border-radius: 5px;
-    padding: 25px;
 }
-
-.parkingLot {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 60px;
+.tktImg {
+    margin-left: 35px;
+}
+.ticketsFeatures {
+    margin-left: 10px;
     text-align: left;
 }
-
-
-/*-------------------------------------------------------------------------------------*/
-
-
-/* Reservations purchase tickets*/
-
-
-/*-------------------------------------------------------------------------------------*/
-
-.reservation {
-    display: grid;
-    grid-template-columns: 30% auto auto;
-    margin: 0px;
-    padding: 100px;
-    border-top: 19px solid #2196F3;
-}
-
-.ckAvailability {
-    display: inline-block;
-    width: 180px;
-    height: 40px;
-    background: #03f8cf;
-    padding: 5px;
-    text-align: center;
-    border-radius: 50px;
-    color: #3003f8;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 25px;
-    cursor: pointer;
-}
-
-.makeReservation {
-    display: inline-block;
-    width: 180px;
-    height: 40px;
-    background: #03f8cf;
-    padding: 5px;
-    text-align: center;
-    border-radius: 50px;
-    color: #3003f8;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 25px;
-    cursor: pointer;
-    margin-left: 80px;
-    margin-top: 12px;
-}
-
-p.getTkts,
-p.getTkts a {
-    display: inline-block;
-    background-color: rgb(226, 43, 202);
-    color: rgb(255, 238, 10);
-    font-weight: bold;
-    font-size: 18px;
-    text-decoration: none;
-    box-shadow: 2px 2px rgb(141, 139, 139);
-    text-align: center;
-    width: 160px;
-    height: 25px;
-    border-radius: 50px;
-    cursor: pointer;
-    padding-top: 3px;
-    padding-bottom: 4px;
-}
-
-div.rsv h4 {
-    background-color: rgba(255, 140, 90, 0.8);
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 36px;
-}
-
-
-/*-------------------------------------------------------------------------------------*/
-
-
-/* buy now buttons*/
-
-
-/*-------------------------------------------------------------------------------------*/
-
+/* ------------------------------------------------------------------------------------- */
+/* buy now buttons layout */
+/* ------------------------------------------------------------------------------------- */
 .buyNow {
     display: block;
     width: 180px;
@@ -467,12 +394,11 @@ div.rsv h4 {
     border-radius: 50px;
     color: #f8e803;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.5em;
     line-height: 25px;
     cursor: pointer;
     margin-left: 40px;
 }
-
 .buyNow2 {
     display: block;
     width: 180px;
@@ -484,11 +410,10 @@ div.rsv h4 {
     color: #4403f8;
     font-weight: bold;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 1.5em;
     cursor: pointer;
     margin-left: 40px;
 }
-
 .buyNow3 {
     display: block;
     width: 180px;
@@ -500,11 +425,10 @@ div.rsv h4 {
     color: #030103;
     font-weight: bold;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 1.5em;
     cursor: pointer;
     margin-left: 40px;
 }
-
 .buyNow4 {
     display: block;
     width: 180px;
@@ -516,265 +440,242 @@ div.rsv h4 {
     color: #f8e803;
     font-weight: bold;
     font-size: 20px;
-    line-height: 25px;
+    line-height: 1.5em;
     cursor: pointer;
     margin-left: 40px;
 }
-
-.ticketsType h2 {
-    background-color: rgba(255, 140, 90, 0.8);
-    padding: 20px;
-}
-
-p.asLowAs {
-    font-size: 1.1em;
-    color: rgb(7, 119, 22);
-    font-weight: bold;
-}
-
-
-/*-------------------------------------------------------------------------------------*/
-
-
-/*price value and qty in line, next two styles*/
-
-
-/*-------------------------------------------------------------------------------------*/
-
-.tktQty {
-    /*container div, cell div follows*/
+/* ------------------------------------------------------------------------------------- */
+/* ticket price, qty layout */
+/* ------------------------------------------------------------------------------------- */
+.tktQty {                           /*container div, cell div follows*/
     display: table;
-    width: fit-content;
-    table-layout: fixed;
+    width:fit-content ;
+    table-layout: fixed; 
     border-spacing: 10px;
     margin-left: 30px;
 }
-
-.tkt {
-    /*cell  div*/
+.tkt {                              /*cell  div*/
     display: table-cell;
 }
-
-
-/*-------------------------------------------------------------------------------------*/
-
-
-/*tickets section*/
-
-
-/*-------------------------------------------------------------------------------------*/
-
-.ticketsAll {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    background-color: #eaf1f8;
-    text-align: left;
-}
-
-.tktImg {
-    margin-left: 35px;
-}
-
-.ticketsFeatures {
-    margin-left: 10px;
-    text-align: left;
-}
-
-
-/*-------------------------------------------------------------------------------------*/
-
-
-/*health services*/
-
-
-/*-------------------------------------------------------------------------------------*/
-
+/* ------------------------------------------------------------------------------------- */
+/*health services layout*/
+/* ------------------------------------------------------------------------------------- */
 .container1 {
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    padding: 100px;
-    border-top: 19px solid #2196F3;
-    margin: -10px;
-    align-items: normal;
+display: grid;
+grid-gap: 0px;
+grid-template-columns:  auto;
+grid-template-rows: auto auto ; 
+padding: 100px;
+border-top: 19px solid #2196F3;
+margin: -10px;
+align-items: normal;
 }
-
 .item11 {
     grid-row: 1 /3;
-    grid-column: 1 / 1;
+    grid-column: 1 / 1; 
     text-align: center;
     margin-bottom: 0%;
     margin-top: 0;
     margin-right: 20px;
 }
-
 .item12 {
     grid-row: 1 / 1;
-    grid-column: 2 /2;
+    grid-column: 2 /2; 
 }
-
 .item13 {
     grid-row: 1 / 1;
-    grid-column: 3 / 3;
+    grid-column: 3 / 3; 
 }
-
 .item14 {
     grid-row: 1 / 1;
-    grid-column: 4 / 4;
+    grid-column: 4 / 4; 
 }
-
 .item15 {
     grid-row: 2/ 2;
-    grid-column: 2 / 2;
+    grid-column: 2 / 2; 
 }
-
 .item16 {
     grid-row: 2 / 2;
-    grid-column: 3/ 3;
+    grid-column: 3/ 3; 
 }
-
 .item17 {
     grid-row: 2 / 2;
-    grid-column: 4 / 4;
+    grid-column: 4 / 4; 
 }
-
-.servicesHealthTitle h3,
-.servicesDisabilitiesTitle h3,
-.servicesOtherTitle h3 {
-    color: blue;
-    width: 90%;
-    text-align: center;
+.servicesHealthTitle h3, .servicesDisabilitiesTitle h3, .servicesOtherTitle h3 {
+width: 90%;
 }
-
-
-/*-------------------------------------------------------------------------------------*/
-
-
-/*accesibility  services*/
-
-
-/*-------------------------------------------------------------------------------------*/
-
+/* ------------------------------------------------------------------------------------- */
+/*accesibility  services layout*/
+/* ------------------------------------------------------------------------------------- */
 .container2 {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    padding: 80px;
-    border-top: 19px solid #2196F3;
-    margin: 0px;
-    align-items: normal;
+display: grid;
+grid-gap: 10px;
+grid-template-columns:  auto;
+grid-template-rows: auto auto ; 
+padding: 80px;
+border-top: 19px solid #2196F3;
+margin: 0px;
+align-items: normal;
 }
-
 .item21 {
     grid-row: 1 /3;
-    grid-column: 4 / 4;
+    grid-column: 4 / 4; 
     text-align: center;
     margin-bottom: 0%;
     margin-top: 0;
 }
-
 .item22 {
     grid-row: 1 / 1;
-    grid-column: 1 /1;
+    grid-column: 1 /1; 
 }
-
 .item23 {
     grid-row: 1 / 1;
-    grid-column: 3 / 3;
+    grid-column: 3 / 3; 
     padding-left: 0px;
 }
-
 .item24 {
     grid-row: 1 / 1;
-    grid-column: 2 / 2;
+    grid-column: 2 / 2; 
     padding-left: 42px;
 }
-
 .item25 {
     grid-row: 2/ 2;
-    grid-column: 1 / 1;
+    grid-column: 1 / 1; 
 }
-
 .item26 {
     grid-row: 2 / 2;
-    grid-column: 3/ 3;
+    grid-column: 3/ 3; 
 }
-
 .item27 {
     grid-row: 2 / 2;
-    grid-column: 2 / 2;
+    grid-column: 2 / 2; 
     padding-left: 42px;
 }
-
-
-/*-------------------------------------------------------------------------------------*/
-
-
-/*other  services*/
-
-
-/*-------------------------------------------------------------------------------------*/
-
+/* ------------------------------------------------------------------------------------- */
+/*other  services layout*/
+/* ------------------------------------------------------------------------------------- */
 .container3 {
-    display: grid;
-    grid-gap: 0px;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-    padding: 80px;
-    border-top: 19px solid #2196F3;
-    border-bottom: 19px solid #2196F3;
-    margin: -10px;
+display: grid;
+grid-gap: 0px;
+grid-template-columns: auto;
+grid-template-rows: auto auto ; 
+padding: 80px;
+border-top: 19px solid #2196F3;
+/* border-bottom: 19px solid #2196F3; */
+margin: -10px;
 }
-
 .item31 {
     grid-row: 1 /3;
-    grid-column: 1 / 1;
+    grid-column: 1 / 1; 
     text-align: center;
     margin-bottom: 0%;
     margin-top: 0;
     margin-right: 20px;
 }
-
 .item32 {
     grid-row: 1 / 1;
-    grid-column: 2 /2;
+    grid-column: 2 /2; 
 }
-
 .item33 {
     grid-row: 1 / 1;
-    grid-column: 3 / 3;
-}
+    grid-column: 3 / 3; 
 
+}
 .item34 {
     grid-row: 1 / 1;
-    grid-column: 4 / 4;
+    grid-column: 4 / 4; 
 }
-
 .item35 {
     grid-row: 2/ 2;
-    grid-column: 2 / 2;
+    grid-column: 2 / 2; 
 }
-
 .item36 {
     grid-row: 2 / 2;
-    grid-column: 3/ 3;
+    grid-column: 3/ 3; 
 }
-
 .item37 {
     grid-row: 2 / 2;
-    grid-column: 4 / 4;
+    grid-column: 4 / 4; 
 }
-
-
 /*-------------------------------------------------------------------------------------*/
-
-
+/* map and parking lot layout */
+/*-------------------------------------------------------------------------------------*/
+.map{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 100px;
+    text-align: center;
+}
+.parkingLot{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 60px;
+    text-align: center;
+}
+div.transportation {
+    border-bottom: 19px solid #2196F3; 
+}
+/* ------------------------------------------------------------------------------------- */
+/* Reservations layout */
+/* ------------------------------------------------------------------------------------- */
+.reservation {
+    display: grid;
+    grid-template-columns: 30% auto auto;
+    margin: 0px;
+    padding:  100px;
+    border-top: 19px solid #2196F3;
+}
+.ckAvailability {
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    background: #03f8cf;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50px;
+    color: #3003f8;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 25px;
+    cursor: pointer;
+}
+.makeReservation {
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    background: #03f8cf;
+    padding: 5px;
+    text-align: center;
+    border-radius: 50px;
+    color: #3003f8;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 25px;
+    cursor: pointer;
+    margin-left: 80px;
+    margin-top: 12px;
+}
+p.getTkts, p.getTkts a{
+    display: inline-block;
+    background-color: rgb(226, 43, 202);
+    color: rgb(255, 238, 10);
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: none;
+    box-shadow: 2px 2px rgb(141, 139, 139);
+    text-align: center;
+    width: 160px;
+    height: 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+/* ------------------------------------------------------------------------------------- */
 /*end of style for page 3.html*/
+/* ------------------------------------------------------------------------------------- */
 
-
-/*-------------------------------------------------------------------------------------*/
 
 
 /* 7. Page: Attractions */
@@ -784,7 +685,6 @@ p.asLowAs {
     text-align: left;
     opacity: 0.8;
 }
-
 
 /* 8. Page: Services */
 
@@ -796,7 +696,7 @@ p.asLowAs {
     grid-template-columns: auto auto auto auto auto;
     grid-gap: 4px;
     border-width: 0px;
-    background-color: rgba(97, 173, 152, 0.6);
+    background-color: rgba(24, 125, 207, 0.9);
     color: black;
     font-family: 'Raleway', sans-serif;
     font-size: calc(8px + 0.4vw);
@@ -807,7 +707,7 @@ p.asLowAs {
 }
 
 .footerLink>a:hover {
-    background-color: rgba(42, 80, 75);
+    background-color: rgba(145, 7, 7);
 }
 
 

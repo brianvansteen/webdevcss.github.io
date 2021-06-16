@@ -840,6 +840,70 @@ p.getTkts a {
     opacity: 0.8;
 }
 
+#featuredAttraction {
+    font-family: "Chewy", cursive;
+    text-align: center;
+    font-size: 42px;
+    color: rgba(145, 7, 7);
+    background-color: #61ad9890;
+    border-radius: 5px;
+}
+
+#ridesShowsTitle {
+    font-family: "Chewy", cursive;
+    text-align: center;
+    font-size: 42px;
+    color: rgba(145, 7, 7);
+    background-color: #61ad9890;
+    border-radius: 5px;
+}
+
+.rideShowTitle {
+    font-family: "Chewy", cursive;
+    text-align: left;
+    font-size: 36px;
+    color: purple;
+}
+
+.attractionRideDescription {
+    font-family: "Chewy", cursive;
+    text-align: left;
+    font-size: 24px;
+    color: black;
+}
+
+.grid-container-attractions-1 {
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto;
+    font-family: 'Raleway', sans-serif;
+    background-color: #61ad9890;
+    padding: 10px;
+}
+
+.grid-item-attractions-1 {
+    background-color: #61ad9890;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.grid-container-attractions {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #61ad9890;
+    padding: 10px;
+}
+
+.grid-item-attractions {
+    background-color: #61ad9890;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: left;
+}
+
 
 /* 8. Page: Services */
 

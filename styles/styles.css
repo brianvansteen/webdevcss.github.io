@@ -22,7 +22,6 @@
 /* 1. Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Chewy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* 2. Elements */
 
@@ -96,7 +95,7 @@ dt {
 .titleSecondary {
     text-align: left;
     font-family: 'Roboto', sans-serif;
-    font-size: 1vw;
+    font-size: 1.4vw;
     color: rgba(19, 54, 108);
 }
 
@@ -111,7 +110,7 @@ dt {
 
 .introductionMain {
     font-family: 'Roboto', sans-serif;
-    font-size: 1vw;
+    font-size: 1.4vw;
     color: rgba(145, 7, 7);
     background-color: #61ad9890;
     border-radius: 10px;
@@ -123,7 +122,7 @@ dt {
     display: grid;
     grid-template-columns: auto auto;
     font-family: 'Roboto', sans-serif;
-    font-size: 0.8vw;
+    font-size: 1vw;
     color: rgb(19, 54, 108);
     padding: 5px;
     border-radius: 5px;
@@ -133,7 +132,7 @@ dt {
     display: grid;
     grid-template-columns: auto auto;
     font-family: 'Roboto', sans-serif;
-    font-size: 0.8vw;
+    font-size: 1vw;
     color: rgb(19, 54, 108);
     background-color: rgba(41, 138, 205, 0.6);
     padding: 5px;
@@ -161,7 +160,7 @@ dt {
 .grid-item label {
     text-align: left;
     font-family: "Chewy", cursive;
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     color: rgba(42, 80, 75);
 }
 
@@ -182,7 +181,7 @@ dt {
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     text-align: left;
 }
 
@@ -192,14 +191,14 @@ dt {
     background-color: rgba(41, 138, 205, 0);
     border: 4px solid rgba(0, 0, 0, 1);
     padding: 10px;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
 }
 
 .grid-item {
     background-color: rgba(97, 173, 152, 0.6);
     border: 2px solid rgba(0, 0, 0);
     padding: 20px;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     text-align: center;
 }
 
@@ -210,16 +209,16 @@ dt {
     font-size: 2vw;
 }
 
-#contacts {
+.contacts {
     display: inline;
-    font-size: 0.6vw;
+    font-size: 1vw;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
 }
 
-#contacts2 {
+.contacts2 {
     display: inline;
-    font-size: 0.6vw;
+    font-size: 1vw;
     padding: 10px;
     font-family: 'Roboto', sans-serif;
 }
@@ -298,7 +297,7 @@ summary.rsvProtocol {
 
 h1.ticketsTitle,
 h1.servicesTitle {
-    font-size: 1vw;
+    font-size: 1.4vw;
     clear: both;
     font-weight: bold;
     color: #13366c;
@@ -306,7 +305,7 @@ h1.servicesTitle {
 }
 
 div.rsv h4 {
-    font-size: 1vw;
+    font-size: 1.4vw;
 }
 
 
@@ -321,7 +320,7 @@ div.rsv h4 {
 h3.servicesHealthTitle,
 h3.servicesDisabilitiesTitle,
 h3.servicesOtherTitle {
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     background-color: rgba(42, 80, 75, 0.6);
     border-radius: 5px;
     padding: 25px;
@@ -330,7 +329,7 @@ h3.servicesOtherTitle {
 }
 
 h2.todayAtYokoso {
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     clear: both;
     font-weight: bold;
     color: #13366c;
@@ -340,7 +339,7 @@ h2.todayAtYokoso {
 h2.rsv,
 h2.transportationDetail,
 h2.mapTitle {
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     clear: both;
     font-weight: bold;
     color: #13366c;
@@ -351,7 +350,7 @@ h2.mapTitle {
 }
 
 .ticketsType h2 {
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     font-weight: bold;
     color: #13366c;
     text-align: center;
@@ -370,11 +369,11 @@ h2.mapTitle {
 
 ul.todayAtYokoso,
 p.todayAtYokoso {
-    font-size: 1.6vw;
+    font-size: 1.4vw;
 }
 
 p.asLowAs {
-    font-size: 0.6vw;
+    font-size: 1.4vw;
     color: rgb(19, 54, 108);
     font-weight: bold;
 }
@@ -389,7 +388,7 @@ p.asLowAs {
 /* ------------------------------------------------------------------------------------- */
 
 div.rsv p {
-    font-size: 0.8vw;
+    font-size: 1.4vw;
     font-weight: normal;
     color: black;
     text-align: center;
@@ -456,7 +455,7 @@ summary.rsvProtocol {
 
 summary.rsvProtocol {
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.4vw;
     font-style: italic;
     padding: 4px;
     width: max-content;
@@ -504,7 +503,7 @@ summary.rsvProtocol:hover {
 .ticketsFeatures {
     margin-left: 10px;
     text-align: left;
-    font-size: 0.6vw;
+    font-size: 1.4vw;
 }
 
 
@@ -526,7 +525,7 @@ summary.rsvProtocol:hover {
     border-radius: 50px;
     color: #298acd;
     font-weight: bold;
-    font-size: 0.6vw;
+    font-size: 1.4vw;
     line-height: 25px;
     cursor: pointer;
     margin-left: 40px;
@@ -548,7 +547,7 @@ summary.rsvProtocol:hover {
     table-layout: fixed;
     border-spacing: 10px;
     margin-left: 30px;
-    font-size: 0.6vw;
+    font-size: 1vw;
 }
 
 .tkt {
@@ -755,7 +754,7 @@ summary.rsvProtocol:hover {
     grid-template-columns: auto auto;
     padding: 100px;
     text-align: center;
-    font-size: 0.8vw;
+    font-size: 1.4vw;
 }
 
 .parkingLot {
@@ -767,7 +766,7 @@ summary.rsvProtocol:hover {
 
 div.transportation {
     border-bottom: 19px solid #298acd;
-    font-size: 0.8vw;
+    font-size: 1.4vw;
 }
 
 
@@ -797,7 +796,7 @@ div.transportation {
     border-radius: 50px;
     color: #13366c;
     font-weight: bold;
-    font-size: 0.6vw;
+    font-size: 1.4vw;
     line-height: 25px;
     cursor: pointer;
 }
@@ -812,7 +811,7 @@ div.transportation {
     border-radius: 50px;
     color: #13366c;
     font-weight: bold;
-    font-size: 0.6vw;
+    font-size: 1.4vw;
     line-height: 25px;
     cursor: pointer;
     margin-left: 80px;
@@ -825,7 +824,7 @@ p.getTkts a {
     background-color: #d2b09b;
     color: #2a504b;
     font-weight: bold;
-    font-size: 0.6vw;
+    font-size: 1.4vw;
     text-decoration: none;
     box-shadow: 2px 2px rgb(141, 139, 139);
     text-align: center;
@@ -875,7 +874,7 @@ p.getTkts a {
 .ridesShowsTitle {
     font-family: "Chewy", cursive;
     text-align: center;
-    font-size: 42px;
+    font-size: 1.4vw;
     color: rgba(42, 80, 75);
     background-color: #61ad9890;
     border-radius: 5px;
@@ -891,7 +890,7 @@ p.getTkts a {
 .attractionRideDescription {
     font-family: "Chewy", cursive;
     text-align: left;
-    font-size: 24px;
+    font-size: 1.4vw;
     color: black;
 }
 
@@ -909,7 +908,7 @@ p.getTkts a {
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
     font-family: 'Roboto', sans-serif;
-    font-size: 50px;
+    font-size: 2vw;
     text-align: center;
 }
 
@@ -937,7 +936,7 @@ p.getTkts a {
 #services {
     text-align: left;
     font-family: 'Roboto', sans-serif;
-    font-size: 0.8vw;
+    font-size: 1.4vw;
     color: rgba(19, 54, 108);
 }
 

@@ -209,14 +209,14 @@ dt {
     font-size: 2vw;
 }
 
-.contacts {
+#contacts {
     display: inline;
     font-size: 0.6vw;
     padding: 10px;
     font-family: 'Raleway', sans-serif;
 }
 
-.contacts2 {
+#contacts2 {
     display: inline;
     font-size: 0.6vw;
     padding: 10px;
@@ -442,7 +442,7 @@ h1.todayAtYokoso {
 /* ------------------------------------------------------------------------------------- */
 
 
-/* first aside for reservations <detail> */
+/* first aside for reservations detail */
 
 
 /* ------------------------------------------------------------------------------------- */
@@ -871,7 +871,7 @@ p.getTkts a {
     border-radius: 5px;
 }
 
-#ridesShowsTitle {
+.ridesShowsTitle {
     font-family: "Chewy", cursive;
     text-align: center;
     font-size: 42px;

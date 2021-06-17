@@ -22,6 +22,7 @@
 /* 1. Fonts */
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* 2. Elements */
 
@@ -74,7 +75,7 @@ dt {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 6px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: calc(10px + 1.0vw);
     font-weight: bold;
 }
@@ -94,7 +95,7 @@ dt {
 
 .titleSecondary {
     text-align: left;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1vw;
     color: rgba(19, 54, 108);
 }
@@ -109,7 +110,7 @@ dt {
 }
 
 .introductionMain {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1vw;
     color: rgba(145, 7, 7);
     background-color: #61ad9890;
@@ -121,7 +122,7 @@ dt {
 .introductionSecondary {
     display: grid;
     grid-template-columns: auto auto;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.8vw;
     color: rgb(19, 54, 108);
     padding: 5px;
@@ -131,7 +132,7 @@ dt {
 .introductionTable {
     display: grid;
     grid-template-columns: auto auto;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.8vw;
     color: rgb(19, 54, 108);
     background-color: rgba(41, 138, 205, 0.6);
@@ -171,7 +172,7 @@ dt {
     text-align: left;
     display: grid;
     grid-template-columns: auto auto auto;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: rgba(41, 138, 205, 0.9);
     padding: 10px;
 }
@@ -180,7 +181,7 @@ dt {
     background-color: rgba(255, 255, 255);
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.6vw;
     text-align: left;
 }
@@ -213,14 +214,14 @@ dt {
     display: inline;
     font-size: 0.6vw;
     padding: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #contacts2 {
     display: inline;
     font-size: 0.6vw;
     padding: 10px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -283,7 +284,7 @@ dt {
 h1.todayAtYokoso,
 aside #reservationsProtocol,
 summary.rsvProtocol {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -849,11 +850,11 @@ p.getTkts a {
 /* 7. Page: Attractions */
 
 .shows {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .ride {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .attractionsImage {
@@ -898,7 +899,7 @@ p.getTkts a {
     text-align: left;
     display: grid;
     grid-template-columns: auto;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #61ad9890;
     padding: 10px;
 }
@@ -907,7 +908,7 @@ p.getTkts a {
     background-color: #61ad9890;
     border: 1px solid rgba(0, 0, 0, 0.8);
     padding: 20px;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 50px;
     text-align: center;
 }
@@ -935,7 +936,7 @@ p.getTkts a {
 #about,
 #services {
     text-align: left;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.8vw;
     color: rgba(19, 54, 108);
 }
@@ -950,7 +951,7 @@ p.getTkts a {
     border-width: 0px;
     background-color: rgba(24, 125, 207, 0.9);
     color: black;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: calc(8px + 0.4vw);
     font-weight: bold;
     text-align: left;

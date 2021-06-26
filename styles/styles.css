@@ -70,19 +70,31 @@ dt {
 
 .navGrid {
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
-    grid-gap: 10px;
+    /* grid-template-columns: auto auto auto auto auto; */
+    grid-template-columns: repeat(auto-fill, minmax(1rem, 25rem));
+    grid-gap: 5px;
     background-color: rgba(41, 138, 205, 0.9);
-    padding: 10px;
+    padding: 5px;
 }
 
 .navGrid>div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
-    padding: 6px;
+    padding: 5px;
     font-family: 'Roboto', sans-serif;
-    font-size: calc(10px + 1.2vw);
+    font-size: calc(8px + 1.2vw);
+    color: rgba(19, 54, 108);
+    word-wrap: break-word;
     font-weight: bold;
+}
+
+.navGrid>div>a {
+    text-decoration: none;
+}
+
+.navGrid>div>a:hover {
+    background-color: #61ad9880;
+    text-decoration: underline overline dotted rgba(42, 80, 75);
 }
 
 
@@ -1047,6 +1059,29 @@ p.getTkts a {
     text-align: left;
 }
 
+.imageresponsive-main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 40%;
+    max-height: 40%;
+    z-index: -1;
+}
+
+.imageresponsive-attractions {
+    float: right;
+    margin-right: 2rem;
+    max-width: 40%;
+    max-height: 40%;
+    z-index: -1;
+}
+
+.attractions-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: calc(8px + 0.8vw);
+}
+
 
 /* 8. Page: Services */
 
@@ -1084,13 +1119,14 @@ p.getTkts a {
 
 .footerLink {
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    /* grid-template-columns: auto auto auto auto auto; */
+    grid-template-columns: repeat(auto-fill, minmax(1rem, 15rem));
     grid-gap: 4px;
     border-width: 0px;
-    background-color: rgba(24, 125, 207, 0.9);
-    color: black;
+    background-color: rgba(24, 125, 207, 0.7);
+    color: rgb(19, 54, 108);
     font-family: 'Roboto', sans-serif;
-    font-size: calc(8px + 0.4vw);
+    font-size: calc(8px + 0.8vw);
     font-weight: bold;
     text-align: left;
     padding: 1px 1px;
@@ -1098,7 +1134,7 @@ p.getTkts a {
 }
 
 .footerLink>a:hover {
-    background-color: rgba(145, 7, 7);
+    background-color: #61ad98aa;
 }
 
 

@@ -63,8 +63,9 @@
             </section>
         </div>
 
-        <div class="todayItem4">
-            <img class="todayContacts" src="images/3slayer.jpg" alt="theme park map" width="200" height="250">
+        <div class="todayItem4 effects">
+            <img class="todayContacts rotate bottom" src="images/3slayer(copy).jpg" alt="theme park" width="300" height="350">
+            <img class="top" src="images/3themepark6(copy2).jpg" alt="reservations" width="300" height="350">
         </div>
 
         <div class="todayItem3">
@@ -144,15 +145,15 @@
         <!--This section prvides the structure for the single tickets purchasing-->
         <!--............................................................................................................................-->
         <div class="ticketsAll">
-            <div class="ticketsType">
-                <div class="sticketsType">
+            <div class="ticketsType ">
+                <div class="sticketsType ">
                     <h2>
                         <a id="singleTickets"></a>Single tickets</h2>
-                    <img class="tktImg" src="images/3themepark5(copy).jpg" alt="theme park map" width="200" height="200">
+                    <img class="tktImg " src="images/3themepark5(copy).jpg" alt="single tickets" width="200" height="200">
                 </div>
 
-                <div class="ticketsFeatures">
-                    <ul class="ticketsFeatures">
+                <div class="ticketsFeatures ">
+                    <ul class="ticketsFeatures  ">
                         <li>Visit all park attractions</li>
                         <li>Admission to all shows</li>
                         <li>Leave and return the same day</li>
@@ -176,7 +177,7 @@
                     </div>
 
                 </div>
-                <p class="buyNow">Buy now</p>
+                <p class="buyNow butHover">Buy now</p>
             </div>
 
 
@@ -187,7 +188,7 @@
                 <div class="sticketsType">
                     <h2>
                         <a id="GroupTickets"></a>Group tickets</h2>
-                    <img class="tktImg" src="images/3themepark4.jpg" alt="theme park map" width="200" height="200">
+                    <img class="tktImg" src="images/3themepark4.jpg" alt="group tickets" width="200" height="200">
                 </div>
 
                 <div class="ticketsFeatures">
@@ -216,7 +217,7 @@
                     </div>
 
                 </div>
-                <p class="buyNow2">Buy now</p>
+                <p class="buyNow2 butHover">Buy now</p>
             </div>
 
 
@@ -228,7 +229,7 @@
                 <div class="sticketsType">
                     <h2>
                         <a id="Passes"></a>Passes</h2>
-                    <img class="tktImg" src="images/3themepark3(copy).jpg" alt="theme park map" width="200" height="200">
+                    <img class="tktImg" src="images/3themepark3(copy).jpg" alt="passes" width="200" height="200">
                 </div>
 
                 <div class="ticketsFeatures">
@@ -257,7 +258,7 @@
                     </div>
 
                 </div>
-                <p class="buyNow3">Buy now</p>
+                <p class="buyNow3 butHover">Buy now</p>
             </div>
 
 
@@ -268,7 +269,7 @@
                 <div class="sticketsType">
                     <h2 class="memberships">
                         <a id="Memberships"></a>Memberships</h2>
-                    <img class="tktImg" src="images/3themepark2(copy).jpg" alt="theme park map" width="200" height="200">
+                    <div><img class="tktImg" src="images/3themepark2(copy).jpg" alt="membership" width="200" height="200"></div>
 
                 </div>
 
@@ -298,7 +299,7 @@
                     </div>
 
                 </div>
-                <p class="buyNow4">Buy now</p>
+                <p class="buyNow4 butHover">Buy now</p>
             </div>
         </div>
     </div>
@@ -306,27 +307,35 @@
     <!--............................................................................................................................-->
     <!-- This division describes the structure for making reservations -->
     <!--............................................................................................................................-->
+
     <div id="reservations" class="reservation grlFamily">
 
-        <div class="rsv">
+        <div class="rsv flexRsv">
             <h2 class="rsv ttleFamily "> Reservations</h2>
 
-            <p>Any guest entering the park must have both a ticket and a reservation confirmation. Access to the theme park is limited and therefore a reservation is required for all guests visiting the park. View park attractions availability for the days
+            <p class="text">Any guest entering the park must have both a ticket and a reservation confirmation. Access to the theme park is limited and therefore a reservation is required for all guests visiting the park. View park attractions availability for the days
                 that you want to visit</p>
+            <p class="makeReservation butHover ">Make a reservation</p>
+            <p class="ckAvailability butHover ">Check availability</p>
+            <p class="getTkts butHover ">Get tickets
+                <a class="butHover" href="#tickets"> </a>
+            </p>
+
         </div>
-        <div class="reservationsViewAvailability">
-            <img class="rsvImg" src="images/3themepark1(copy).jpg" alt="theme park map" width="100" height="200" usemap="#parkMap">
-            <p class="ckAvailability">Check availability</p>
-            <p class="getTkts"><a href="#tickets">Get tickets </a></p>
+        <div class="reservationsViewAvailability  ">
+            <!-- <p class="makeReservation butHover " >Make a reservation</p>
+            <p class="ckAvailability butHover ">Check availability</p>
+            <p class="getTkts "><a  class="butHover" href="#tickets">Get tickets </a></p> -->
         </div>
 
-        <div class="reservationsMakeReservations">
-            <img class="rsvImg" src="images/3themepark6(copy).jpg" alt="theme park map" width="200" height="200" usemap="#parkMap">
-            <p class="makeReservation">Make a reservation</p>
+        <div class="reservationsMakeReservations imgShow flexRsv">
+
+            <img class="rsvImg btt" src="images/3themepark6(copy).jpg" alt="availability" width="200" height="250">
+            <img class="rsvImg tp" src="images/3themepark1(copy).jpg" alt="reservations" width="200" height="250">
+
         </div>
 
     </div>
-
 
 
     <!--............................................................................................................................-->
@@ -339,6 +348,7 @@
                 <a id="healthAccessibilityAndServices"></a>
             </h1>
         </div>
+
 
 
         <div class="container1">
@@ -365,24 +375,27 @@
                         </ul>
                     </div>
 
-                    <!--emphasis attribute is used here encouraging the user to make direct contact with the office-->
-                    <p class="features"><em>For information contact health services at (458)531-8652</em>
+                    <!--emphasis attribute is used here encouraging  the 3AED user to make direct contact with the office-->
+                    <p class="features call"><em>For information contact health services at <br>(458)531-8652</em>
                         <a href="#map"><br>Find Services Office</a>
                     </p>
 
                 </div>
 
             </div>
-            <div class="item12"><img class="servPic" src="images/3AED.jpg" alt="theme park map" width="270" height="270"></div>
-            <div class="item13"> <img class="servPic" src="images/3babyChanging.jpg" alt="theme park map" width="270" height="270"></div>
-            <div class="item14"> <img class="servPic" src="images/3childCare.jpg" alt="theme park map" width="270" height="270"></div>
-            <div class="item15"> <img class="servPic" src="images/3firstAid.jpg" alt="theme park map" width="270" height="270"></div>
-            <div class="item16"> <img class="servPic" src="images/3guestCare.jpg" alt="theme park map" width="270" height="270"></div>
-            <div class="item17"> <img class="servPic" src="images/3serviceAnimals.jpg" alt="theme park map" width="270" height="270"></div>
 
+            <div class="picsHealth">
+                <img class="servPic n1" src="images/3AED.jpg" alt="health services" width="270" height="270">
+                <img class="servPic n2" src="images/3babyChanging.jpg" alt="health services" width="270" height="270">
+                <img class="servPic n3" src="images/3guestCare.jpg" alt="health services" width="270" height="270">
+                <img class="servPic n4" src="images/3childCare.jpg" alt="health services" width="270" height="270">
+                <img class="servPic n5" src="images/3firstAid.jpg" alt="health services" width="270" height="270">
+            </div>
         </div>
 
+
         <div class="container2">
+
             <div class="item21">
                 <div class="servicesDisabilities">
                     <div class="servicesDisabilitiesTitle">
@@ -402,17 +415,20 @@
                     </div>
 
                     <!--emphasis attribute is used here encouraging the user to make direct contact with the office-->
-                    <p class="features"><em>For information contact health services at (458)531-8652</em>
+                    <p class="features call"><em>For information contact health services at<br> (458)531-8652</em>
                         <a href="#map"><br>Find Services Office</a>
                     </p>
 
                 </div>
 
             </div>
-            <div class="item22"><img class="servPic" src="images/3stroller.jpg" alt="theme park map" width="270" height="270"></div>
-            <div class="item23"> <img class="servPic" src="images/3scooter.jpg" alt="theme park map" width="270" height="270"></div>
-            <div class="item24"> <img class="servPic" src="images/3cabinMobility.jpg" alt="theme park map" width="270" height="270"></div>
-            <div class="item25"> <img class="servPic" src="images/3guestCare.jpg" alt="theme park map" width="270" height="270"></div>
+            <div class="picsDisabilities">
+                <img class="servPic a1" src="images/3stroller.jpg" alt="disabilities" width="270" height="270">
+                <img class="servPic a2" src="images/3scooter.jpg" alt="disabilities" width="270" height="270">
+                <img class="servPic a3" src="images/3cabinMobility.jpg" alt="disabilities" width="270" height="270">
+                <img class="servPic a4" src="images/3guestCare.jpg" alt="disabilities" width="270" height="270">
+            </div>
+
 
 
         </div>
@@ -441,19 +457,22 @@
                     </div>
 
                     <!--emphasis attribute is used here encouraging the user to make direct contact with the office-->
-                    <p class="features"><em>For information contact services at (458)865-3587</em>
+                    <p class="features call"><em>For information contact services at<br> (458)865-3587</em>
                         <a href="#map"><br>Find Services Office</a>
                     </p>
 
                 </div>
 
             </div>
-            <div class="item32"> <img class="servPic" src="images/3guestCare.jpg" alt="theme park map" width="270" height="270"></div>
-            <div class="item33"> <img class="servPic" src="images/3carRental.jpg" alt="theme park map" width="270" height="270"></div>
-            <div class="item34"> <img class="servPic" src="images/3security.jpg" alt="theme park map" width="270" height="270"></div>
-            <div class="item35"> <img class="servPic" src="images/3umbrellas.jpg" alt="theme park map" width="270" height="270"></div>
-            <div class="item36"> <img class="servPic" src="images/3charging.jpg" alt="theme park map" width="270" height="270"></div>
-            <div class="item37"> <img class="servPic" src="images/3lostFound.jpg" alt="theme park map" width="270" height="270"></div>
+            <div class="picsOther">
+                <!-- <img class="servPic o1" src="images/3guestCare.jpg" alt="theme park map" width="270" height="270"> -->
+                <img class="servPic o1" src="images/3umbrellas.jpg" alt="theme park map" width="270" height="270">
+                <img class="servPic o2" src="images/3charging.jpg" alt="theme park map" width="270" height="270">
+                <img class="servPic o3" src="images/3lostFound.jpg" alt="theme park map" width="270" height="270">
+                <img class="servPic o4" src="images/3carRental.jpg" alt="theme park map" width="270" height="270">
+                <img class="servPic o5" src="images/3security.jpg" alt="theme park map" width="270" height="270">
+            </div>
+
 
         </div>
 
@@ -473,7 +492,7 @@
 
         <!--the accessibility alt attribute is used here-->
         <div class="mapImage">
-            <img class="servPic" src="images/3streetMap.jpg" alt="theme park map" width="500" height="500" usemap="#parkMap">
+            <img class="map1" src="images/3streetMap.jpg" alt="theme park map" width="500" height="500" usemap="#parkMap">
             <!--source: public domain image https://i.pinimg.com/originals/8a/94/b2/8a94b20dacebdd4011bd54d03f3ee76d.jpg-->
         </div>
 
@@ -497,7 +516,7 @@
 
         <div class="parkingLot">
             <div class="transportationMap">
-                <img class="parkingLot servPic" src="images/3parkingLot.jpg" alt="parking lot" width="600">
+                <img class="parkingLot parkLotPic" src="images/3parkingLot.jpg" alt="parking lot" width="600">
                 <!--source public domain image https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_figure-->
             </div>
 

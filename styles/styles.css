@@ -300,12 +300,22 @@ dt {
 .reservation,
 .map,
 .transportation,
-.services .todayContainer {
+.todayContainer {
     background-color: rgb(255, 255, 255);
     padding: 0%;
     border-left: 1.0vw solid #2196F3;
     border-right: 1.0vw solid #2196F3;
     border-top: 1.0vw solid #2196F3;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.services {
+    background-color: rgb(97, 173, 152, 0.6);
+    padding: 0%;
+    border-left: 19px solid #2196F3;
+    border-right: 19px solid #2196F3;
+    border-top: 19px solid #2196F3;
     margin: 0px;
     box-sizing: border-box;
 }
@@ -710,11 +720,6 @@ summary.rsvProtocol:hover {
 
 
 /* ------------------------------------------------------------------------------------- */
-
-.services {
-    border-left: 1.0vw solid #2196F3;
-    border-right: 1.0vw solid #2196F3;
-}
 
 .servPic {
     width: auto;
@@ -1127,7 +1132,7 @@ p.getTkts a {
     font-family: 'Roboto', sans-serif;
     font-size: calc(8px + 1.2vw);
     color: rgba(19, 54, 108);
-    margin-bottom: 1rm;
+    margin-bottom: 1rem;
 }
 
 .imageresponsive-services {

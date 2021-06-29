@@ -46,6 +46,7 @@
     <!--............................................................................................................................-->
     <!-- sections today and contacts modified by Juan J Dominguez, it's possible these will be included in a 4th or 5th page-->
     <!--............................................................................................................................-->
+
     <div class="todayContainer grlFamily">
         <div class="todayItem1">
             <section class="todayItem1">
@@ -61,11 +62,6 @@
                 </a>
 
             </section>
-        </div>
-
-        <div class="todayItem4 effects">
-            <img class="todayContacts rotate bottom" src="images/3slayer(copy).jpg" alt="theme park" width="300" height="350">
-            <img class="top" src="images/3themepark6(copy2).jpg" alt="reservations" width="300" height="350">
         </div>
 
         <div class="todayItem3">
@@ -86,6 +82,22 @@
 
     </div>
 
+    <div id="tickets" class="topContainer">
+        <div class="col">
+
+        </div>
+
+        <div class="col col2">
+            <div class="bckgrnd"></div>
+            <div class="imagen"><img class="topImg" src="images/3slayer(copy).jpg" alt="theme park" width="200" height="200"></div>
+        </div>
+
+        <div class="col">
+
+        </div>
+
+    </div>
+
     <!--............................................................................................................................-->
     <!-- Developed by Juan J Dominguez from this line down, except the footer-->
     <!--............................................................................................................................-->
@@ -96,7 +108,7 @@
     <div class="tickets grlFamily">
         <!--this identifier will bring the user to this section upon  "plan-your-visit" click on the main menu-->
         <h1 class="ticketsTitle ttleFamily">
-            <a id="tickets"></a>Single tickets, group tickets, passes and memberships</h1>
+            <a></a>Single tickets, group tickets, passes and memberships</h1>
         <!--this structure provides an aside with instructions for purchasing tickets and make reservations-->
         <aside>
             <div id="reservationsProtocol">
@@ -234,7 +246,7 @@
 
                 <div class="ticketsFeatures">
                     <ul>
-                        <li>Unlimited visits all attractions</li>
+                        <li>Unlimited visits to all attractions</li>
                         <li>Unlimited visits to all shows</li>
                         <li>Leave and return the same day</li>
                     </ul>
@@ -276,7 +288,7 @@
                 <div class="ticketsFeatures">
                     <ul>
                         <li>Enjoy special benefits </li>
-                        <li>VIP guest's parlors</li>
+                        <li>VIP guest's parlors various locations</li>
                         <li>Dining discounts </li>
                     </ul>
                 </div>
@@ -322,15 +334,9 @@
             </p>
 
         </div>
-        <div class="reservationsViewAvailability  ">
-            <!-- <p class="makeReservation butHover " >Make a reservation</p>
-            <p class="ckAvailability butHover ">Check availability</p>
-            <p class="getTkts "><a  class="butHover" href="#tickets">Get tickets </a></p> -->
-        </div>
+
 
         <div class="reservationsMakeReservations imgShow flexRsv">
-
-            <img class="rsvImg btt" src="images/3themepark6(copy).jpg" alt="availability" width="200" height="250">
             <img class="rsvImg tp" src="images/3themepark1(copy).jpg" alt="reservations" width="200" height="250">
 
         </div>
@@ -352,6 +358,16 @@
 
 
         <div class="container1">
+            <div class="picsHealth">
+                <img class="servPic n1" src="images/3AED.jpg" alt="health services" width="270" height="270">
+                <img class="servPic n2" src="images/3babyChanging.jpg" alt="health services" width="270" height="270">
+                <img class="servPic n3" src="images/3guestCare.jpg" alt="health services" width="270" height="270">
+                <img class="servPic n4" src="images/3childCare.jpg" alt="health services" width="270" height="270">
+                <img class="servPic n5" src="images/3firstAid.jpg" alt="health services" width="270" height="270">
+            </div>
+
+
+
             <div class="item11">
                 <div class="servicesHealth">
                     <div class="servicesHealthTitle">
@@ -384,13 +400,7 @@
 
             </div>
 
-            <div class="picsHealth">
-                <img class="servPic n1" src="images/3AED.jpg" alt="health services" width="270" height="270">
-                <img class="servPic n2" src="images/3babyChanging.jpg" alt="health services" width="270" height="270">
-                <img class="servPic n3" src="images/3guestCare.jpg" alt="health services" width="270" height="270">
-                <img class="servPic n4" src="images/3childCare.jpg" alt="health services" width="270" height="270">
-                <img class="servPic n5" src="images/3firstAid.jpg" alt="health services" width="270" height="270">
-            </div>
+
         </div>
 
 
@@ -485,24 +495,25 @@
     <!-- This section provides the structure for maps section -->
     <!--............................................................................................................................-->
     <div id="map" class="map grlFamily">
-        <div class="mapTitle">
+        <div class="mapTitle mapA">
             <h2 class="mapTitle ttleFamily">Theme park map </h2>
             <p class="features">Find your favorite attraction, eats and drinks, or the services you need</p>
         </div>
 
         <!--the accessibility alt attribute is used here-->
-        <div class="mapImage">
-            <img class="map1" src="images/3streetMap.jpg" alt="theme park map" width="500" height="500" usemap="#parkMap">
+        <div class="mapImage mapA">
+            <img class="map1" src="images/3streetMap.jpg" alt="theme park map" width="100" height="100" usemap="#parkMap">
             <!--source: public domain image https://i.pinimg.com/originals/8a/94/b2/8a94b20dacebdd4011bd54d03f3ee76d.jpg-->
-        </div>
 
-        <!--the map contain clickable areas that take the user to the section of the page in references-->
-        <map name="parkMap">
-            <area class="mapThemePark" shape="circle" coords="310,330,20"   alt="feature attraction" title="IMAX ride" href="index.html#featuredAttraction">
-            <area class="mapThemePark" shape="circle" coords="350,140,20"   alt="restaurant" title="Dine Yokoso Anime" href="2.html#restaurant">
-            <area class="mapThemePark" shape="circle" coords="135,140,20"   alt="shows" title="Yokoso Shows" href="index.html#Shows">
-            <area class="mapThemePark" shape="circle" coords="120,360,20"   alt="virtual Reality" title="Yokoso VR" href="index.html#featuredAttraction">
-	    </map>
+
+            <!--the map contains clickable areas that take the user to the section of the page in references-->
+            <map name="parkMap">
+                <area class="mapThemePark" shape="circle" coords="310,330,20"   alt="feature attraction" title="IMAX ride" href="index.html#featuredAttraction">
+                <area class="mapThemePark" shape="circle" coords="350,140,20"   alt="restaurant" title="Dine Yokoso Anime" href="2.html#restaurant">
+                <area class="mapThemePark" shape="circle" coords="135,140,20"   alt="shows" title="Yokoso Shows" href="index.html#Shows">
+                <area class="mapThemePark" shape="circle" coords="120,360,20"   alt="virtual Reality" title="Yokoso VR" href="index.html#featuredAttraction">
+            </map>
+        </div>
     </div>
 
     <!--............................................................................................................................-->
@@ -515,20 +526,21 @@
         </div> -->
 
         <div class="parkingLot">
-            <div class="transportationMap">
-                <img class="parkingLot parkLotPic" src="images/3parkingLot.jpg" alt="parking lot" width="600">
-                <!--source public domain image https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_figure-->
-            </div>
 
-            <div class="transportationDetail">
+            <div class="transportationDetail plA">
                 <h2 class="transportationDetail ttleFamily">Park directions </h2>
                 <p class="features"> The park is easily accessible through exit 42 Off I-695</p>
                 <address class="features"> Location 12552 North Pinacle, Doyle IG 78898-5872 NS</address>
+            </div>
+            <div class="transportationMap plA">
+                <img class="parkingLot parkLotPic" src="images/3parkingLot.jpg" alt="parking lot" width="100" height="100">
+                <!--source public domain image https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_figure-->
             </div>
 
         </div>
     </div>
     <br>
+
 
     <footer>
 
